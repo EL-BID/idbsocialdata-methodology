@@ -6,29 +6,3 @@ url: https://just-the-docs.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
-  # Set a path/url to a logo that will be displayed instead of the title
-logo: "BID_LAC.jpg"
-
-
-+-- ..
-|-- (Jekyll files)
-|
-|-- docs
-|   |-- ui-components
-|   |   |-- 2_Metodología-indicadores.rmd  (parent page)
-|   |   |-- 3_Datos-género_y_diversidad.rmd
-|   |   |-- 4_Fuente-de_datos.rmd
-|   |
-|   |-- utilities
-|   |   |-- index.md      (parent page)
-|   |   |-- color.md
-|   |   |-- layout.md
-|   |   |-- responsive-modifiers.md
-|   |   +-- typography.md
-|   |
-|   |-- (other md files, pages with no children)
-|   +-- ..
-|
-|-- (Jekyll files)
-+-- ..
