@@ -6,3 +6,10 @@ url: https://just-the-docs.github.io
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+rmd_files: [
+  "index.rmd", 
+  "2_Metodología_indicadores.Rmd",
+  "3_Datos_género_y_diversidad.Rmd",
+  "4_Fuente_de_datos.Rmd",
+]
