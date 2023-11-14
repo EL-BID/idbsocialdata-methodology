@@ -1,0 +1,19 @@
+book_filename: "idbsocialdata"
+repo: https://github.com/EL-BID/scl-doc
+output_dir: "docs"
+
+language:
+label:
+    fig: "Figure "
+    tab: "Table "
+
+  ui:
+    chapter_name: "Chapter"
+delete_merged_file: true
+
+rmd_files: [
+  "index.rmd", 
+  "01-Metodología.Rmd",
+  "02-GeneroyDiversidad.Rmd",
+  "03-Source.Rmd",
+]

@@ -1,0 +1,101 @@
+## Sección 4: Fuente de datos
+
+En esta sección se describen la fuente de datos utilizadas para calcular los indicadores disponibles en la plataforma [**Datos e indicadores de América Latina y el Caribe**](https://test-idb-website.pantheonsite.io/en/sharing-knowledge/data/social-data) y en los paquetes de **IDBsocialdata** que están disponibles para ser utilizados en [**R**](https://github.com/EL-BID/idbsocialdataR), [**Python**](https://github.com/EL-BID/idbsocialdatapy) y [**Stata**](https://github.com/EL-BID/idbsocialdata).
+
+### 4.1. Encuestas de Hogares Armonizadas del BID {#HHS}
+
+Las Encuestas de Hogares (EH) se utilizan como una fuente de referencia para observar y analizar las características demográficas, económicas y sociales de los países. Con el objetivo de proporcionar datos comparables a lo largo del tiempo y entre diferentes naciones, se lleva a cabo una estandarización de las bases de datos originales siguiendo un enfoque y estructura comunes, que incluyen nombres, definiciones y desagregaciones uniformes. Este proceso de armonización permite a los usuarios ahorrar tiempo en el procesamiento de datos y generar información analítica a nivel regional y subregional utilizando criterios uniformes. Además, facilita la realización de diagnósticos, la formulación de estrategias y la investigación de cuestiones sociales específicas en cada país de la región.
+
+Para llevar a cabo la estandarización de las variables de acuerdo con las pautas establecidas, se pone a disposición el [**repositorio de armonización de encuestas**](https://github.com/EL-BID/armonizacion_microdatos_encuestas_hogares_scl) que contiene los scripts de Stata y la documentación necesaria para generar los datos.
+
+Es importante destacar que la principal fuente de los microdatos originales de las EH son los institutos de estadística (INE) de los países de la región. En casos particulares, el BID participa como coproductor de algunas de estas encuestas. A continuación, se enumeran las fuentes y las encuestas disponibles:
+
+| **País**  | **Fuente**                                                    | **Encuesta**                                                    | **Años disponibles**                  |
+|-----------|---------------------------------------------------------------|-----------------------------------------------------------------|---------------------------------------|
+| **ARG**   | Instituto Nacional de Estadísticas y Censos (INDEC)           | Encuesta Permanente de Hogares - Continua (EPHC)                | 2003-2022                             |
+|           |                                                               | Encuesta Permanente de Hogares - Puntual (EPHP)                 | 1992-2002                             |
+| **BHS**   | Bahamas National Satatistical Institute                       | Labor Force Survey (LFS)                                        | 2001-2009, 2011-2024                  |
+| **BLZ**   | Statistical Institute of Belize                               | Labor Force Survey (LFS)                                        | 1993-1999, 2001-2005, 2007            |
+| **BOL**   | Instituto Nacional de Estadística (INE)                       | Encuesta Continua de Hogares (ECH)                              | 1999-2021                             |
+|           |                                                               | Encuesta Nacional de Empleo (ENE)                               | 1996-1997                             |
+|           |                                                               | Encuesta Integrada de Hogares (EIH)                             | 1990-1995                             |
+| **BRA**   | Instituto Brasileiro de Geografía e Estadística (IBGE)        | Pesquisa Nacional por Amostra de Domicilio Continua (PNAD)      | 2016-2022                             |
+|           |                                                               | Pesquisa Nacional por Amostra de Domicilio (PNAD)               | 1990-2015                             |
+| **BRB**   | Barbados Statistical Service                                  | Continuous Labor Force Survey (CLFS)                            | 1999, 2004-2016                       |
+| **CHL\*** | Ministerio de Desarrollo Social (MIDEPLAN)                    | Encuesta de Caracterización Socioeconómica Nacional (CASEN)     | 1990-2022                             |
+| **COL**   | Departamento Administrativo Nacional de Estadística (DANE)    | Gran Encuesta Integrada de Hogares (GEIH)                       | 2006-2022                             |
+|           |                                                               | Encuesta Continua de Hogares (ECH)                              | 2001-2005                             |
+|           |                                                               | Encuesta Nacional de Hogares - Fuerza de Trabajo (ENH-FT)       | 1990-2000                             |
+| **CRI**   | Instituto Nacional de Estadísticas y Censos (INEC)            | Encuesta Nacional de Hogares (ENAHO)                            | 2010-2022                             |
+|           |                                                               | Encuesta de Hogares de Propósitos Múltiples (EHPM)              | 1990-2009                             |
+| **DOM**   | Banco Central de la República Dominicana (BCRD)               | Encuesta Nacional de Fuerza de Trabajo Continua (ENCFT)         | 2017-2021                             |
+|           |                                                               | Encuesta Nacional de Fuerza de Trabajo (ENFT)                   | 1994-1996, 2000-2016                  |
+| **ECU**   | Instituto Nacional de Estadística y Censos (INEC)             | Encuesta Nacional de empleo, desempleo y subempleo (ENEMDU)     | 1990-2022                             |
+| **GTM**   | Instituto Nacional de Estadística (INE)                       | Encuesta Nacional de Empleo e Ingresos (ENEI)                   | 2002-2004, 2010-2022                  |
+|           |                                                               | Encuesta Nacional de Condiciones de Vida (ENCOVI)               | 2000, 2006, 2011, 2014                |
+|           |                                                               | Encuesta Nacional de Ingresos y Gastos Familiares (ENIGF)       | 1998                                  |
+| **GUY**   | Bureau of Statistics                                          | Labor Force Survey (LFS)                                        | 2016-2018, 2021                       |
+| **HND**   | Instituto Nacional de Estadísticas (INE)                      | Encuesta Permanente de Hogares de Propósitos Múltiples (EPHPM)  | 1990-1999, 2000-2019                  |
+| **HTI**   | Institut Haiten De Statistique et D'Informatique - World Bank | Enquete Les Conditions de Vie des Menages Apres Seisme (ECVMAS) | 2012                                  |
+| **JAM**   | Statistical Institute of Jamaica (STATIN)                     | Labour Force Survey (LFS)                                       | 1990-2010, 2012-2014, 2016, 2019-2020 |
+| **MEX\*** | Instituto Nacional de Estadística y Geografía (INEGI)         | Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH)   | 1992-2022                             |
+| **NIC**   | Instituto Nacional de Información de Desarrollo (INIDE)       | Encuesta Continua de Hogares (ECH)                              | 2010-2012                             |
+|           |                                                               | Encuesta de Hogares sobre medición de Niveles de Vida (EMNV)    | 1993, 1998, 2001, 2005, 2009, 2014    |
+| **PAN**   | Instituto Nacional de Estadística y Censo (INEC)              | Encuesta de Hogares de Propósitos Múltiples (EHPM)              | 2011-2019, 2022                       |
+|           |                                                               | Encuesta de Hogares (EH)                                        | 1991-2009                             |
+| **PRY**   | Dirección General de Estadística, Encuestas y Censos (DGEEC)  | Encuesta Permanente de Hogares Continua (EPHC)                  | 2018                                  |
+|           |                                                               | Encuesta Permanente de Hogares (EPH)                            | 1999, 2002-2017                       |
+|           |                                                               | Encuesta Integrada de Hogares (EIH)                             | 1997-98, 2000-01                      |
+|           |                                                               | Encuesta de Hogares - Mano de Obra (EHM)                        | 1990-1996                             |
+| **PER**   | Instituto Nacional de Estadística e Informática (INEI)        | Encuesta Nacional de Hogares (ENAHO)                            | 1997-2022                             |
+| **SLV**   | Dirección General de Estadística y Censos (DIGESTYC)          | Encuesta de Hogares de Propósitos Múltiples (EHPM)              | 1995-2022                             |
+| **SUR**   | Banco Interamericano de Desarrollo (BID)                      | Suriname Survey of Living Conditions (SSLC)                     | 2017, 2022                            |
+| **TTO**   | Central of Trinidad and Tobago                                | Continuous Sample Survey of Population (CSSP)                   | 1999-2014                             |
+| **URY**   | Instituto Nacional de Estadística (INE)                       | Encuesta Continua de Hogares (ECH)                              | 1992, 1995-2022                       |
+| **VEN**   | Instituto Nacional de Estadística (INE)                       | Encuesta de Hogares por Muestreo (EHM)                          | 1991-2013                             |
+|           | UCAB-USB-UCENTRAL, BID, World Bank                            | Encuesta Nacional de Condiciones de Vida (ENCOVI)               | 2014-2019, 2021                       |
+
+\*Las encuestas de México y Chile se realizan cada dos y tres años respectivamente.
+
+### 4.2. Censos de Población y Vivienda Armonizados del BID {#HC}
+
+Los Censos de Población y Vivienda tienen como objetivo proporcionar información sobre la cantidad, estructura y distribución geográfica de la población en cada país. Al igual que en la colección de EH, se busca generar datos estandarizados y comparables entre países y a lo largo del tiempo a partir de la información compartida por el Integrated Public Use Microdata (IPUMS) de la Universidad de Minnesota. En casos en los que los censos no estén disponibles en IPUMS, se recurre a los INE de cada país como fuente de datos.
+
+A partir de la información obtenida en IPUMS, se lleva a cabo una estandarización siguiendo las directrices establecidas por el BID. Los scripts en Stata y documentos de armonización de variables en el [**repositorio de armonización de censos**](). A continuación, se describe la fuente y los datos disponibles:
+
+| **País** | **Fuente**                                                   | **Año disponible**                 |
+|----------|--------------------------------------------------------------|------------------------------------|
+| **ARG**  | IPUMS, Minnesota Population Center                           | 1970, 1980, 1991, 2001, 2010       |
+| **BHS**  |                                                              | No disponible                      |
+| **BLZ**  |                                                              | No disponible                      |
+| **BOL**  | IPUMS, Minnesota Population Center                           | 1976,1992, 2001, 2012              |
+| **BRA**  | IPUMS, Minnesota Population Center                           | 1960, 1970, 1980, 1991, 2000, 2010 |
+| **CHL**  | IPUMS, Minnesota Population Center                           | 1970, 1982, 1992, 2017             |
+| **COL**  | IPUMS, Minnesota Population Center                           | 1963,1973, 1985, 1993, 2005        |
+|          | Departamento Administrativo Nacional de Estadística (DANE)   | 2018                               |
+| **CRI**  | IPUMS, Minnesota Population Center                           | 1963, 1973, 1984, 2000, 2010       |
+| **DOM**  | IPUMS, Minnesota Population Center                           | 1960,1970, 1980, 2002, 2010        |
+| **ECU**  | IPUMS, Minnesota Population Center                           | 1962,1974, 1981, 1989, 2001, 2010  |
+| **GTM**  | IPUMS, Minnesota Population Center                           | 1963, 1973, 1980, 1993, 2002       |
+|          | Instituto Nacional de Estadística (INE)                      | 2018                               |
+| **GUY**  | Department of Public Information (DPI)                       | 1991, 2001, 2012                   |
+| **HND**  | IPUMS, Minnesota Population Center                           | 1961,1973, 1988, 2001              |
+| **HTI**  | IPUMS, Minnesota Population Center                           | 1970,1982, 2003                    |
+| **JAM**  | IPUMS, Minnesota Population Center                           | 1982,1991, 2001                    |
+|          | Statistical Institute of Jamaica (STATIN)                    | 2011                               |
+| **MEX**  | IPUMS, Minnesota Population Center                           | 1960,1970, 1995, 2005, 2015        |
+|          | Instituto Nacional de Estadística y Geografía (INEGI)        | 1989, 2000, 2010, 2020             |
+| **NIC**  | IPUMS, Minnesota Population Center                           | 1971,1995, 2005                    |
+| **PAN**  | IPUMS, Minnesota Population Center                           | 1960,1970, 1980, 1990, 2000, 2010  |
+| **PER**  | IPUMS, Minnesota Population Center                           | 1993, 2007                         |
+|          | Instituto Nacional de Estadística e Informática (INEI)       | 2017                               |
+| **PRY**  | IPUMS, Minnesota Population Center                           | 1962,1972, 1982, 1992, 2002        |
+|          | Dirección General de Estadística, Encuestas y Censos (DGEEC) | 2012                               |
+| **SLV**  | IPUMS, Minnesota Population Center                           | 1992, 2007                         |
+| **SUR**  | IPUMS, Minnesota Population Center                           | 2004, 2012                         |
+| **TTO**  | IPUMS, Minnesota Population Center                           | 1970,1980, 1990, 2000, 2011        |
+| **URY**  | IPUMS, Minnesota Population Center                           | 1963, 1975, 1985, 1996, 2006, 2011 |
+| **VEN**  | IPUMS, Minnesota Population Center                           | 1971, 1981, 1990, 2001             |
+
+**Bibliografía**
+
