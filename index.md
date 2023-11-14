@@ -11,28 +11,6 @@ description: |
   This site describes the indicators available in SCLData
 ---
 
-```{=html}
-<style type="text/css">
-h1 { /* Header 1 */
-  font-size: 20px;
-}
-h2 { /* Header 2 */
-    font-size: 18px;
-}
-h3 { /* Header 3 */
-    font-size: 14px;
-}
-body {
-text-align: justify}
-
-</style>
-```
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE) 
-```
-
-![](BID_LAC.jpg){width="288" height="183"}
-
 # Datos e indicadores de América Latina y el Caribe
 
 ## Nota metodológica
