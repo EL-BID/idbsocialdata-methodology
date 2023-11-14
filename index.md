@@ -10,6 +10,7 @@ colorlinks: yes
 description: |
   This site describes the indicators available in SCLData
 ---
+![](BID_LAC.jpg)
 
 # Datos e indicadores de América Latina y el Caribe
 
