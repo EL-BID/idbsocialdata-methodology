@@ -31,7 +31,7 @@ text-align: justify}
 knitr::opts_chunk$set(echo = TRUE) 
 ```
 
-![](C:/Users/linaa/OneDrive%20-%20Inter-American%20Development%20Bank%20Group/Documents%5CGitHub%5CIDBSocialData-Methodology/BID_LAC_ALC.jpg){width="288" height="183"}
+![](BID_LAC.jpg){width="288" height="183"}
 
 # Datos e indicadores de América Latina y el Caribe
 
