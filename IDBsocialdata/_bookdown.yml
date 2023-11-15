@@ -4,16 +4,17 @@ output_dir: "docs"
 
 language:
 label:
-    fig: "Figure "
-    tab: "Table "
+    fig:"Figure "
+    tab:"Table "
 
-  ui:
-    chapter_name: "Chapter"
+  ui:chapter_name:"Sección "
 delete_merged_file: true
 
 rmd_files: [
   "index.rmd", 
-  "01-Metodología.Rmd",
-  "02-GeneroyDiversidad.Rmd",
+  "01-metodologia.Rmd",
+  "02-GyD.Rmd",
   "03-Source.Rmd",
 ]
+
+

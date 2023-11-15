@@ -1,8 +1,8 @@
-## Sección 4: Fuente de datos
+# Fuente de datos {#source}
 
 En esta sección se describen la fuente de datos utilizadas para calcular los indicadores disponibles en la plataforma [**Datos e indicadores de América Latina y el Caribe**](https://test-idb-website.pantheonsite.io/en/sharing-knowledge/data/social-data) y en los paquetes de **IDBsocialdata** que están disponibles para ser utilizados en [**R**](https://github.com/EL-BID/idbsocialdataR), [**Python**](https://github.com/EL-BID/idbsocialdatapy) y [**Stata**](https://github.com/EL-BID/idbsocialdata).
 
-### 4.1. Encuestas de Hogares Armonizadas del BID {#HHS}
+## Encuestas de Hogares Armonizadas del BID {#HHS}
 
 Las Encuestas de Hogares (EH) se utilizan como una fuente de referencia para observar y analizar las características demográficas, económicas y sociales de los países. Con el objetivo de proporcionar datos comparables a lo largo del tiempo y entre diferentes naciones, se lleva a cabo una estandarización de las bases de datos originales siguiendo un enfoque y estructura comunes, que incluyen nombres, definiciones y desagregaciones uniformes. Este proceso de armonización permite a los usuarios ahorrar tiempo en el procesamiento de datos y generar información analítica a nivel regional y subregional utilizando criterios uniformes. Además, facilita la realización de diagnósticos, la formulación de estrategias y la investigación de cuestiones sociales específicas en cada país de la región.
 
@@ -57,7 +57,7 @@ Es importante destacar que la principal fuente de los microdatos originales de l
 
 \*Las encuestas de México y Chile se realizan cada dos y tres años respectivamente.
 
-### 4.2. Censos de Población y Vivienda Armonizados del BID {#HC}
+## Censos de Población y Vivienda Armonizados del BID {#HC}
 
 Los Censos de Población y Vivienda tienen como objetivo proporcionar información sobre la cantidad, estructura y distribución geográfica de la población en cada país. Al igual que en la colección de EH, se busca generar datos estandarizados y comparables entre países y a lo largo del tiempo a partir de la información compartida por el Integrated Public Use Microdata (IPUMS) de la Universidad de Minnesota. En casos en los que los censos no estén disponibles en IPUMS, se recurre a los INE de cada país como fuente de datos.
 
@@ -96,6 +96,4 @@ A partir de la información obtenida en IPUMS, se lleva a cabo una estandarizaci
 | **TTO**  | IPUMS, Minnesota Population Center                           | 1970,1980, 1990, 2000, 2011        |
 | **URY**  | IPUMS, Minnesota Population Center                           | 1963, 1975, 1985, 1996, 2006, 2011 |
 | **VEN**  | IPUMS, Minnesota Population Center                           | 1971, 1981, 1990, 2001             |
-
-**Bibliografía**
 

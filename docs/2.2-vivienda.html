@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="2.2 Vivienda | Nota metodología: Datos e indicadores de América Latina y el Caribe" />
+<meta property="og:type" content="book" />
+
+<meta property="og:description" content="This site describes how the indicators are calculated" />
+<meta name="github-repo" content="https://github.com/EL-BID/scl-doc" />
+
+<meta name="author" content="Banco Interamericano de Desarrollo - BID" />
+
+<meta name="date" content="2023-01-01" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<meta name="description" content="This site describes how the indicators are calculated">
+
+<title>2.2 Vivienda | Nota metodología: Datos e indicadores de América Latina y el Caribe</title>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+/* show arrow before summary tag as in bootstrap
+TODO: remove if boostrap in updated in html_document (rmarkdown#1485) */
+details > summary {
+  display: list-item;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#intro" id="toc-intro"><span class="toc-section-number">1</span> Introducción</a></li>
+<li class="has-sub"><a href="2-indicadores.html#indicadores" id="toc-indicadores"><span class="toc-section-number">2</span> Metodología de construcción de indicadores</a>
+<ul>
+<li class="has-sub"><a href="2.1-demografía-y-migración.html#demografía-y-migración" id="toc-demografía-y-migración"><span class="toc-section-number">2.1</span> Demografía y migración</a>
+<ul>
+<li><a href="2.1-demografía-y-migración.html#población" id="toc-población"><span class="toc-section-number">2.1.1</span> Población</a></li>
+<li><a href="2.1-demografía-y-migración.html#migrantes" id="toc-migrantes"><span class="toc-section-number">2.1.2</span> Migrantes</a></li>
+<li><a href="2.1-demografía-y-migración.html#diversidad" id="toc-diversidad"><span class="toc-section-number">2.1.3</span> Diversidad</a></li>
+</ul></li>
+<li><a href="2.2-vivienda.html#vivienda" id="toc-vivienda"><span class="toc-section-number">2.2</span> Vivienda</a></li>
+<li class="has-sub"><a href="2.3-pobreza-y-desigualdad.html#pobreza-y-desigualdad" id="toc-pobreza-y-desigualdad"><span class="toc-section-number">2.3</span> Pobreza y desigualdad</a>
+<ul>
+<li><a href="2.3-pobreza-y-desigualdad.html#población-por-niveles-de-ingreso" id="toc-población-por-niveles-de-ingreso"><span class="toc-section-number">2.3.1</span> Población por niveles de ingreso</a></li>
+<li><a href="2.3-pobreza-y-desigualdad.html#desigualdad" id="toc-desigualdad"><span class="toc-section-number">2.3.2</span> Desigualdad</a></li>
+</ul></li>
+<li class="has-sub"><a href="2.4-educación.html#educación" id="toc-educación"><span class="toc-section-number">2.4</span> Educación</a>
+<ul>
+<li><a href="2.4-educación.html#indicadores-de-asistencia" id="toc-indicadores-de-asistencia"><span class="toc-section-number">2.4.1</span> Indicadores de asistencia</a></li>
+<li><a href="2.4-educación.html#indicadores-de-terminación" id="toc-indicadores-de-terminación"><span class="toc-section-number">2.4.2</span> Indicadores de terminación</a></li>
+<li><a href="2.4-educación.html#indicadores-de-abandono" id="toc-indicadores-de-abandono"><span class="toc-section-number">2.4.3</span> Indicadores de abandono</a></li>
+<li><a href="2.4-educación.html#indicadores-de-jóvenes-que-no-trabajan-ni-estudian" id="toc-indicadores-de-jóvenes-que-no-trabajan-ni-estudian"><span class="toc-section-number">2.4.4</span> Indicadores de jóvenes que no trabajan ni estudian</a></li>
+<li><a href="2.4-educación.html#indicadores-educativos-de-la-población-adulta" id="toc-indicadores-educativos-de-la-población-adulta"><span class="toc-section-number">2.4.5</span> Indicadores educativos de la población adulta</a></li>
+</ul></li>
+<li class="has-sub"><a href="2.5-empleo-y-seguridad-social.html#empleo-y-seguridad-social" id="toc-empleo-y-seguridad-social"><span class="toc-section-number">2.5</span> Empleo y seguridad social</a>
+<ul>
+<li><a href="2.5-empleo-y-seguridad-social.html#participación-laboral" id="toc-participación-laboral"><span class="toc-section-number">2.5.1</span> Participación laboral</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#empleo-y-seguridad-social-1" id="toc-empleo-y-seguridad-social-1"><span class="toc-section-number">2.5.2</span> Empleo y seguridad social</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#salud-y-protección-social" id="toc-salud-y-protección-social"><span class="toc-section-number">2.5.3</span> Salud y protección social</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#financiamiento-y-recursos" id="toc-financiamiento-y-recursos"><span class="toc-section-number">2.5.4</span> Financiamiento y recursos</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#determinantes-sociales-y-estilo-de-vida" id="toc-determinantes-sociales-y-estilo-de-vida"><span class="toc-section-number">2.5.5</span> Determinantes sociales y estilo de vida</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#servicios-con-calidad" id="toc-servicios-con-calidad"><span class="toc-section-number">2.5.6</span> Servicios con calidad</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#vidas-saludable" id="toc-vidas-saludable"><span class="toc-section-number">2.5.7</span> Vidas saludable</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#protección-financiera" id="toc-protección-financiera"><span class="toc-section-number">2.5.8</span> Protección financiera</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="3-gdi.html#gdi" id="toc-gdi"><span class="toc-section-number">3</span> Metodología de datos de género de diversidad por país</a>
+<ul>
+<li><a href="3.1-fuente-de-datos.html#fuente-de-datos" id="toc-fuente-de-datos"><span class="toc-section-number">3.1</span> Fuente de datos:</a></li>
+<li><a href="3.2-datos-de-género-y-diversidad.html#datos-de-género-y-diversidad" id="toc-datos-de-género-y-diversidad"><span class="toc-section-number">3.2</span> Datos de género y diversidad</a></li>
+<li><a href="3.3-ipums.html#ipums" id="toc-ipums"><span class="toc-section-number">3.3</span> IPUMS</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-source.html#source" id="toc-source"><span class="toc-section-number">4</span> Fuente de datos</a>
+<ul>
+<li><a href="4.1-HHS.html#HHS" id="toc-HHS"><span class="toc-section-number">4.1</span> Encuestas de Hogares Armonizadas del BID</a></li>
+<li><a href="4.2-HC.html#HC" id="toc-HC"><span class="toc-section-number">4.2</span> Censos de Población y Vivienda Armonizados del BID</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="vivienda" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Vivienda</h2>
+<ul>
+<li><strong>Porcentaje de hogares con jefatura femenina</strong></li>
+</ul>
+<p>La jefatura femenina de hogar se calcula como el porcentaje de hogares en los cuales una mujer es identificada como la jefa del hogar por el informante de la encuesta, con respecto al total de hogares en el país.</p>
+<p><strong>Fuente de datos:</strong> <a href="4.1-HHS.html#HHS"><em>Encuestas Armonizadas de Hogares del BID</em></a></p>
+<ul>
+<li><strong>Razón de dependencia</strong></li>
+</ul>
+<p>La razón de dependencia se define como el número de personas menores de 15 años y mayores de 65 años en comparación con la población en edad de trabajar, que se define como la población entre los 15 y 64 años.</p>
+<p><strong>Fuente de datos:</strong> <a href="4.1-HHS.html#HHS"><em>Encuestas Armonizadas de Hogares del BID</em></a></p>
+<ul>
+<li><strong>Número promedio de miembros del hogar</strong></li>
+</ul>
+<p>Se refiere al promedio del número de personas en un hogar en el país. Se calcula como el número total de personas en el hogar dividido entre el total de hogares en el país.</p>
+<p><strong>Fuente de datos:</strong> <a href="4.1-HHS.html#HHS"><em>Encuestas Armonizadas de Hogares del BID</em></a></p>
+<ul>
+<li><strong>Porcentaje de hogares con acceso a los servicios básicos</strong></li>
+</ul>
+<p>Se calcula determinando el porcentaje de hogares que informan tener acceso al servicio básico, dividiendo este número entre el total de hogares. El acceso se calcula de manera individual para cada servicio, teniendo en cuenta las características específicas de cada uno:</p>
+<p><strong>Electricidad:</strong> El acceso se define como los hogares que reportan que la fuente principal de iluminación es la electricidad ya sea pública o privada.</p>
+<p><strong>Agua de acueducto:</strong> El acceso se define como los hogares que reportan que la fuente principal de agua para el consumo es la red de distribución pública</p>
+<p><strong>Saneamiento:</strong> Según la Organización Mundial de la Salud (OMS) y los Objetivos de Desarrollo Sostenible (ODS), el saneamiento mejorado se define como aquel que previene de manera higiénica el contacto de las personas con excretas humanas. Las instalaciones de saneamiento mejorado más comunes incluyen conexiones cloacales, fosas sépticas, letrinas de pozo mejoradas y ventiladas, así como letrinas con losas. Esta clasificación se realiza de acuerdo con el UNICEF Joint Monitoring Programe (JMP) For Supply and Sanitation (2017).</p>
+<p><strong>Internet:</strong> El hogar reporta tener acceso a conexión local de internet.</p>
+<p><strong>Teléfono celular:</strong> El acceso se define como al menos una persona del hogar cuenta con servicio de teléfono celular.</p>
+<p><strong>Fuente de datos:</strong> <a href="4.1-HHS.html#HHS"><em>Encuestas Armonizadas de Hogares del BID</em></a></p>
+</div>
+<p style="text-align: center;">
+<a href="2.1-demografía-y-migración.html"><button class="btn btn-default">Previous</button></a>
+<a href="2.3-pobreza-y-desigualdad.html"><button class="btn btn-default">Next</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>

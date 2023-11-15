@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="4.2 Censos de Población y Vivienda Armonizados del BID | Nota metodología: Datos e indicadores de América Latina y el Caribe" />
+<meta property="og:type" content="book" />
+
+<meta property="og:description" content="This site describes how the indicators are calculated" />
+<meta name="github-repo" content="https://github.com/EL-BID/scl-doc" />
+
+<meta name="author" content="Banco Interamericano de Desarrollo - BID" />
+
+<meta name="date" content="2023-01-01" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<meta name="description" content="This site describes how the indicators are calculated">
+
+<title>4.2 Censos de Población y Vivienda Armonizados del BID | Nota metodología: Datos e indicadores de América Latina y el Caribe</title>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="libs/navigation-1.1/tabsets.js"></script>
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+/* show arrow before summary tag as in bootstrap
+TODO: remove if boostrap in updated in html_document (rmarkdown#1485) */
+details > summary {
+  display: list-item;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container-fluid main-container">
+
+
+<div class="row">
+<div class="col-sm-12">
+<div id="TOC">
+<ul>
+<li><a href="index.html#intro" id="toc-intro"><span class="toc-section-number">1</span> Introducción</a></li>
+<li class="has-sub"><a href="2-indicadores.html#indicadores" id="toc-indicadores"><span class="toc-section-number">2</span> Metodología de construcción de indicadores</a>
+<ul>
+<li class="has-sub"><a href="2.1-demografía-y-migración.html#demografía-y-migración" id="toc-demografía-y-migración"><span class="toc-section-number">2.1</span> Demografía y migración</a>
+<ul>
+<li><a href="2.1-demografía-y-migración.html#población" id="toc-población"><span class="toc-section-number">2.1.1</span> Población</a></li>
+<li><a href="2.1-demografía-y-migración.html#migrantes" id="toc-migrantes"><span class="toc-section-number">2.1.2</span> Migrantes</a></li>
+<li><a href="2.1-demografía-y-migración.html#diversidad" id="toc-diversidad"><span class="toc-section-number">2.1.3</span> Diversidad</a></li>
+</ul></li>
+<li><a href="2.2-vivienda.html#vivienda" id="toc-vivienda"><span class="toc-section-number">2.2</span> Vivienda</a></li>
+<li class="has-sub"><a href="2.3-pobreza-y-desigualdad.html#pobreza-y-desigualdad" id="toc-pobreza-y-desigualdad"><span class="toc-section-number">2.3</span> Pobreza y desigualdad</a>
+<ul>
+<li><a href="2.3-pobreza-y-desigualdad.html#población-por-niveles-de-ingreso" id="toc-población-por-niveles-de-ingreso"><span class="toc-section-number">2.3.1</span> Población por niveles de ingreso</a></li>
+<li><a href="2.3-pobreza-y-desigualdad.html#desigualdad" id="toc-desigualdad"><span class="toc-section-number">2.3.2</span> Desigualdad</a></li>
+</ul></li>
+<li class="has-sub"><a href="2.4-educación.html#educación" id="toc-educación"><span class="toc-section-number">2.4</span> Educación</a>
+<ul>
+<li><a href="2.4-educación.html#indicadores-de-asistencia" id="toc-indicadores-de-asistencia"><span class="toc-section-number">2.4.1</span> Indicadores de asistencia</a></li>
+<li><a href="2.4-educación.html#indicadores-de-terminación" id="toc-indicadores-de-terminación"><span class="toc-section-number">2.4.2</span> Indicadores de terminación</a></li>
+<li><a href="2.4-educación.html#indicadores-de-abandono" id="toc-indicadores-de-abandono"><span class="toc-section-number">2.4.3</span> Indicadores de abandono</a></li>
+<li><a href="2.4-educación.html#indicadores-de-jóvenes-que-no-trabajan-ni-estudian" id="toc-indicadores-de-jóvenes-que-no-trabajan-ni-estudian"><span class="toc-section-number">2.4.4</span> Indicadores de jóvenes que no trabajan ni estudian</a></li>
+<li><a href="2.4-educación.html#indicadores-educativos-de-la-población-adulta" id="toc-indicadores-educativos-de-la-población-adulta"><span class="toc-section-number">2.4.5</span> Indicadores educativos de la población adulta</a></li>
+</ul></li>
+<li class="has-sub"><a href="2.5-empleo-y-seguridad-social.html#empleo-y-seguridad-social" id="toc-empleo-y-seguridad-social"><span class="toc-section-number">2.5</span> Empleo y seguridad social</a>
+<ul>
+<li><a href="2.5-empleo-y-seguridad-social.html#participación-laboral" id="toc-participación-laboral"><span class="toc-section-number">2.5.1</span> Participación laboral</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#empleo-y-seguridad-social-1" id="toc-empleo-y-seguridad-social-1"><span class="toc-section-number">2.5.2</span> Empleo y seguridad social</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#salud-y-protección-social" id="toc-salud-y-protección-social"><span class="toc-section-number">2.5.3</span> Salud y protección social</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#financiamiento-y-recursos" id="toc-financiamiento-y-recursos"><span class="toc-section-number">2.5.4</span> Financiamiento y recursos</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#determinantes-sociales-y-estilo-de-vida" id="toc-determinantes-sociales-y-estilo-de-vida"><span class="toc-section-number">2.5.5</span> Determinantes sociales y estilo de vida</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#servicios-con-calidad" id="toc-servicios-con-calidad"><span class="toc-section-number">2.5.6</span> Servicios con calidad</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#vidas-saludable" id="toc-vidas-saludable"><span class="toc-section-number">2.5.7</span> Vidas saludable</a></li>
+<li><a href="2.5-empleo-y-seguridad-social.html#protección-financiera" id="toc-protección-financiera"><span class="toc-section-number">2.5.8</span> Protección financiera</a></li>
+</ul></li>
+</ul></li>
+<li class="has-sub"><a href="3-gdi.html#gdi" id="toc-gdi"><span class="toc-section-number">3</span> Metodología de datos de género de diversidad por país</a>
+<ul>
+<li><a href="3.1-fuente-de-datos.html#fuente-de-datos" id="toc-fuente-de-datos"><span class="toc-section-number">3.1</span> Fuente de datos:</a></li>
+<li><a href="3.2-datos-de-género-y-diversidad.html#datos-de-género-y-diversidad" id="toc-datos-de-género-y-diversidad"><span class="toc-section-number">3.2</span> Datos de género y diversidad</a></li>
+<li><a href="3.3-ipums.html#ipums" id="toc-ipums"><span class="toc-section-number">3.3</span> IPUMS</a></li>
+</ul></li>
+<li class="has-sub"><a href="4-source.html#source" id="toc-source"><span class="toc-section-number">4</span> Fuente de datos</a>
+<ul>
+<li><a href="4.1-HHS.html#HHS" id="toc-HHS"><span class="toc-section-number">4.1</span> Encuestas de Hogares Armonizadas del BID</a></li>
+<li><a href="4.2-HC.html#HC" id="toc-HC"><span class="toc-section-number">4.2</span> Censos de Población y Vivienda Armonizados del BID</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<div id="HC" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Censos de Población y Vivienda Armonizados del BID</h2>
+<p>Los Censos de Población y Vivienda tienen como objetivo proporcionar información sobre la cantidad, estructura y distribución geográfica de la población en cada país. Al igual que en la colección de EH, se busca generar datos estandarizados y comparables entre países y a lo largo del tiempo a partir de la información compartida por el Integrated Public Use Microdata (IPUMS) de la Universidad de Minnesota. En casos en los que los censos no estén disponibles en IPUMS, se recurre a los INE de cada país como fuente de datos.</p>
+<p>A partir de la información obtenida en IPUMS, se lleva a cabo una estandarización siguiendo las directrices establecidas por el BID. Los scripts en Stata y documentos de armonización de variables en el <a href=""><strong>repositorio de armonización de censos</strong></a>. A continuación, se describe la fuente y los datos disponibles:</p>
+<table>
+<colgroup>
+<col width="9%" />
+<col width="57%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>País</strong></th>
+<th><strong>Fuente</strong></th>
+<th><strong>Año disponible</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>ARG</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1970, 1980, 1991, 2001, 2010</td>
+</tr>
+<tr class="even">
+<td><strong>BHS</strong></td>
+<td></td>
+<td>No disponible</td>
+</tr>
+<tr class="odd">
+<td><strong>BLZ</strong></td>
+<td></td>
+<td>No disponible</td>
+</tr>
+<tr class="even">
+<td><strong>BOL</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1976,1992, 2001, 2012</td>
+</tr>
+<tr class="odd">
+<td><strong>BRA</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1960, 1970, 1980, 1991, 2000, 2010</td>
+</tr>
+<tr class="even">
+<td><strong>CHL</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1970, 1982, 1992, 2017</td>
+</tr>
+<tr class="odd">
+<td><strong>COL</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1963,1973, 1985, 1993, 2005</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Departamento Administrativo Nacional de Estadística (DANE)</td>
+<td>2018</td>
+</tr>
+<tr class="odd">
+<td><strong>CRI</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1963, 1973, 1984, 2000, 2010</td>
+</tr>
+<tr class="even">
+<td><strong>DOM</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1960,1970, 1980, 2002, 2010</td>
+</tr>
+<tr class="odd">
+<td><strong>ECU</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1962,1974, 1981, 1989, 2001, 2010</td>
+</tr>
+<tr class="even">
+<td><strong>GTM</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1963, 1973, 1980, 1993, 2002</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Instituto Nacional de Estadística (INE)</td>
+<td>2018</td>
+</tr>
+<tr class="even">
+<td><strong>GUY</strong></td>
+<td>Department of Public Information (DPI)</td>
+<td>1991, 2001, 2012</td>
+</tr>
+<tr class="odd">
+<td><strong>HND</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1961,1973, 1988, 2001</td>
+</tr>
+<tr class="even">
+<td><strong>HTI</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1970,1982, 2003</td>
+</tr>
+<tr class="odd">
+<td><strong>JAM</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1982,1991, 2001</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Statistical Institute of Jamaica (STATIN)</td>
+<td>2011</td>
+</tr>
+<tr class="odd">
+<td><strong>MEX</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1960,1970, 1995, 2005, 2015</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Instituto Nacional de Estadística y Geografía (INEGI)</td>
+<td>1989, 2000, 2010, 2020</td>
+</tr>
+<tr class="odd">
+<td><strong>NIC</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1971,1995, 2005</td>
+</tr>
+<tr class="even">
+<td><strong>PAN</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1960,1970, 1980, 1990, 2000, 2010</td>
+</tr>
+<tr class="odd">
+<td><strong>PER</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1993, 2007</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Instituto Nacional de Estadística e Informática (INEI)</td>
+<td>2017</td>
+</tr>
+<tr class="odd">
+<td><strong>PRY</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1962,1972, 1982, 1992, 2002</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Dirección General de Estadística, Encuestas y Censos (DGEEC)</td>
+<td>2012</td>
+</tr>
+<tr class="odd">
+<td><strong>SLV</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1992, 2007</td>
+</tr>
+<tr class="even">
+<td><strong>SUR</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>2004, 2012</td>
+</tr>
+<tr class="odd">
+<td><strong>TTO</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1970,1980, 1990, 2000, 2011</td>
+</tr>
+<tr class="even">
+<td><strong>URY</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1963, 1975, 1985, 1996, 2006, 2011</td>
+</tr>
+<tr class="odd">
+<td><strong>VEN</strong></td>
+<td>IPUMS, Minnesota Population Center</td>
+<td>1971, 1981, 1990, 2001</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<!-- </div> -->
+<p style="text-align: center;">
+<a href="4.1-HHS.html"><button class="btn btn-default">Previous</button></a>
+</p>
+</div>
+</div>
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+$(document).ready(function () {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+});
+
+</script>
+
+</body>
+</html>
