@@ -1,16 +1,49 @@
 bookdown::gitbook:
-  css: style.css
+  highlight: tango
   config:
     toc:
-      before: |
-        <li><a href="./">Table of Content</a></li>
-      after: |
-        <li><a href="http://flowminder.org/" target="blank">Released by Flowminder Foundation</a></li>
-    download: ["pdf", "epub"]
-bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
-  latex_engine: xelatex
-  citation_package: natbib
-  keep_tex: yes
-bookdown::epub_book: default
+      scroll_highlight: yes
+    toolbar:
+      position: fixed
+    edit: null
+    sharing:
+      facebook: true
+      github: true
+      twitter: true
+      linkedin: true
+      weibo: true
+      instapaper: true
+      vk: true
+      whatsapp: true
+    info: yes
+
+
+bookdown::bs4_book:
+  theme:
+    primary: "#0d6efd"   
+    base_font: 
+      google: Sen
+    heading_font:
+      google:
+        family: Bitter
+        wght: 200
+    code_font:
+      google: 
+        # arguments to sass::font_google() 
+        family: DM Mono
+        local: false
+  config:
+    search: no
+      # options: null
+    sharing:
+      facebook: true
+      github: true
+      twitter: true
+      linkedin: true
+      weibo: true
+      instapaper: true
+      vk: true
+      whatsapp: true
+    info: yes
+
+

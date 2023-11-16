@@ -1,5 +1,6 @@
 ---
-title: "Nota metodología: Datos e indicadores de América Latina y el Caribe"
+title: "Datos e indicadores de América Latina y el Caribe"
+subtitle: "Nota metodología"
 author: "Banco Interamericano de Desarrollo - BID"
 date: "2023"
 github-repo: https://github.com/EL-BID/scl-doc
