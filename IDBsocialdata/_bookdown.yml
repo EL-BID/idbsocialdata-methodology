@@ -1,5 +1,5 @@
 book_filename: "idbsocialdata"
-repo: https://github.com/EL-BID/scl-doc
+repo: /EL-BID/idbsocialdata-methodology
 output_dir: "docs"
 
 language:
@@ -7,12 +7,19 @@ label:
     fig:"Figure "
     tab:"Table "
 
-  ui:chapter_name:"Sección "
+  ui:chapter_name:"Chapter "
 delete_merged_file: true
 
+
 rmd_files: [
-  "index.rmd", 
-  "01-metodologia.Rmd",
-  "02-GyD.Rmd",
-  "03-Source.Rmd",
+  "index.rmd",
+  
+  "01-Intro-eng.Rmd",
+  
+  "01-Intro.Rmd",
+  "02-metodologia.Rmd",
+  "03-GyD.Rmd",
+  "04-Source.Rmd",
+  
+  
 ]

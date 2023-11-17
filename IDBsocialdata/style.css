@@ -12,3 +12,5 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+knitr::include_graphics('figure/IDB.png')

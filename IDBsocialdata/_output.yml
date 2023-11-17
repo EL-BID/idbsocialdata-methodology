@@ -2,48 +2,55 @@ bookdown::gitbook:
   highlight: tango
   config:
     toc:
+      collapse: section
+      before: |
+        <li><a href="./">Table of Content</a></li>
       scroll_highlight: yes
     toolbar:
       position: fixed
     edit: null
     sharing:
-      facebook: true
+      facebook: no
       github: true
       twitter: true
       linkedin: true
       weibo: true
-      instapaper: true
-      vk: true
-      whatsapp: true
     info: yes
+    split_by: section
+  number_sections: yes
+  part_level: 2
+    
 
 
 bookdown::bs4_book:
   theme:
-    primary: "#0d6efd"   
+    primary: "#009ade"   
     base_font: 
-      google: Sen
+      google: "Open Sans"
     heading_font:
       google:
         family: Bitter
         wght: 200
     code_font:
-      google: 
-        # arguments to sass::font_google() 
         family: DM Mono
         local: false
   config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href="./">Table of Content</a></li>
+      scroll_highlight: yes
     search: no
       # options: null
     sharing:
-      facebook: true
+      facebook: no
       github: true
       twitter: true
       linkedin: true
-      weibo: true
-      instapaper: true
-      vk: true
-      whatsapp: true
     info: yes
+    split_by: section
+  number_sections: yes
+  part_level: 3
+
 
 
