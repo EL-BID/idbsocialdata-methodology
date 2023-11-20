@@ -47,7 +47,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 The purpose of this tool is to provide a unified source of harmonized, standardized, and comparable demographic, economic, and social data for the 26 countries of the LAC region. The goal is to invite diverse audiences to discover and study the situation in the region.
 
-This document outlines the methodology used to estimate and present data and indicators on the platform. Links to the methodology in various languages are available below:[^index-1]
+This document outlines the methodology used to estimate and present data and indicators on the platform. Links to the methodology in English, Spanish, and Portuguese are available below:[^index-1]
 
 [^index-1]: This report is written with the `Markdown` [@markdown] and the `bookdown` [@bookdown] packages.
 

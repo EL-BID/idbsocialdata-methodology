@@ -1,0 +1,16 @@
+introducción
+intro-esp
+indicadores
+demografía-y-migración
+vivienda
+pobreza-y-desigualdad
+educación
+empleo-y-seguridad-social
+salud-y-protección-social
+gdi
+fuente-de-datos
+indicadores-1
+desagregaciones-subnacionales
+source
+HHS
+HC
