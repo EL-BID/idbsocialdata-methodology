@@ -2,7 +2,7 @@
 
 # Introducción {#intro-esp .unnumber}
 
-Actualmente, en **Datos e Indicadores de América Latina y el Caribe**, se cuenta con indicadores estandarizados y comparables para los 26 países de la región (ALC) desde 2006 hasta la actualidad. El acceso a estos indicadores puede realizarse a través de la plataforma o mediante las librerías disponibles en los lenguajes de [***R***](https://github.com/EL-BID/idbsocialdataR), [***Python***](https://github.com/EL-BID/idbsocialdatapy) y [***Stata***](https://github.com/EL-BID/idbsocialdata).
+Actualmente, en **Datos e Indicadores de América Latina y el Caribe**, se cuenta con indicadores estandarizados y comparables para 26 países de la región (ALC) desde 2006 hasta la actualidad. El acceso a estos indicadores puede realizarse a través de la plataforma o mediante las librerías disponibles en los lenguajes de [***R***](https://github.com/EL-BID/idbsocialdataR), [***Python***](https://github.com/EL-BID/idbsocialdatapy) y [***Stata***](https://github.com/EL-BID/idbsocialdata).
 
 La mayoría de estos indicadores son generados por el Sector Social (SCL) de la Vicepresidencia de Sectores y Conocimiento del BID. La fuente principal para su construcción son las **Encuestas de Hogares y los Censos de Población y Vivienda Armonizados del BID**. Estos indicadores se agrupan en seis áreas de desarrollo social: Demografía y Migración, Vivienda, Pobreza y Desigualdad, Educación, Empleo y Seguridad Social, así como Salud y Protección Social. Lo distintivo de la plataforma radica en la capacidad de visualizar los indicadores sociales en diversos niveles, como género, diversidad, edad, área geográfica de residencia, nivel educativo, quintil de ingreso, entre otros.
 

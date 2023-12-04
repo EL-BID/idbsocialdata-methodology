@@ -1,4 +1,5 @@
 bookdown::gitbook:
+  css: style.css
   highlight: tango
   config:
     toc:
@@ -12,9 +13,9 @@ bookdown::gitbook:
     sharing:
       facebook: no
       github: true
-      twitter: true
-      linkedin: true
-      weibo: true
+      twitter: no
+      linkedin: no
+      weibo: no
     info: yes
     split_by: section
   number_sections: yes
@@ -36,7 +37,7 @@ bookdown::bs4_book:
         local: false
   config:
     toc:
-      collapse: section
+      collapse: subsection
       before: |
         <li><a href="./">Table of Content</a></li>
       scroll_highlight: yes
@@ -45,8 +46,8 @@ bookdown::bs4_book:
     sharing:
       facebook: no
       github: true
-      twitter: true
-      linkedin: true
+      twitter: no
+      linkedin: no
     info: yes
     split_by: section
   number_sections: yes

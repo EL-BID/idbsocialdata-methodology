@@ -1,4 +1,4 @@
-# Metodología de construcción de indicadores {#indicadores}
+# Metodología de indicadores {#indicadores}
 
 A continuación, se describe la metodología utilizada para estimar los indicadores.
 
@@ -6,9 +6,9 @@ A continuación, se describe la metodología utilizada para estimar los indicado
 
 ### Población {.unnumbered}
 
--   **Porcentaje de la población por rango de edad**
+-   **Población por rango de edad**
 
-El porcentaje de población por rango de edad se calcula como el porcentaje de la población en una edad específica con respecto al total de la población. En este contexto, la suma de los porcentajes de todos los grupos de edad representados en la pirámide de población debería ser igual al 100%.
+Se calcula como el porcentaje de la población en una edad específica con respecto al total de la población. En este contexto, la suma de los porcentajes de todos los grupos de edad representados en la pirámide de población debería ser igual al 100%.
 
 Los rangos de edad definidos para calcular estos indicadores son los siguientes: 0 a 15 años, 16 a 30 años, 31 a 45 años, 46 a 60 años, 61 a 75 años y 76 años o más.
 
@@ -18,19 +18,19 @@ Los rangos de edad definidos para calcular estos indicadores son los siguientes:
 
 -   **Migrantes como porcentaje de la población total**
 
-Se calcula como el porcentaje de migrantes en relación con la población total que reside en el país. Un individuo se considera migrante si informa haber nacido en un país diferente al que se lleva a cabo la encuesta.
+Se calcula como el porcentaje de migrantes con relación a la población total que reside en el país. Un individuo se considera migrante si informa haber nacido en un país diferente al que se lleva a cabo la encuesta.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
 -   **Migrantes latinoamericanos**
 
-El porcentaje de migrantes latinoamericanos se calcula tomando en cuenta a la población migrante que proviene de uno de los 26 países de América Latina y el Caribe y que reside en el país donde se realiza la encuesta, en relación con el total de la población migrante.
+Se calcula como el porcentaje de migrantes que provienen de uno de los 26 países de América Latina y el Caribe y que reside en el país donde se realiza la encuesta, con relación al total de la población migrante. Un individuo se considera migrante si informa haber nacido en un país diferente al que se lleva a cabo la encuesta.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
 -   **Migrantes residiendo en el país más de 5 años**
 
-El porcentaje de migrantes antiguos se calcula considerando a la población migrante que ha residido en el país donde se realiza la encuesta durante más de 5 años, en relación con el total de la población migrante.
+Se calcula como el porcentaje de migrantes que han residido en el país donde se realiza la encuesta durante más de 5 años, con relación al total de la población migrante. Un individuo se considera migrante si informa haber nacido en un país diferente al que se lleva a cabo la encuesta.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
@@ -44,15 +44,15 @@ Porcentaje de la población indígena se calcula como el número de personas que
 
 -   **Población afrodescendiente**
 
-Porcentaje de la población afrodescendiente se calcula como el número de personas que se autoidentifican como afrodescendiente según la clasificación nacional sobre la población total. *Más información sobre cómo se obtiene la información de diversidad ver* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
+Se calcula como el número de personas que se autoidentifican como afrodescendiente según la clasificación nacional sobre la población total. *Más información sobre cómo se obtiene la información de diversidad ver* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
 -   **Población con discapacidad**
 
-Porcentaje de personas con discapacidad se calcula como el número de personas que reportan tener al menos alguna dificultad con actividades de la vida diaria según los dominios de las preguntas del ***Washington Group*** sobre el total de la población.
+Se calcula como el número de personas que reportan tener al menos alguna dificultad con actividades según los dominios de las preguntas del ***Washington Group*** sobre el total de la población.
 
-Las preguntas del [*Washington Group*](https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Documents/Questions/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__June_2022_.pdf) son uno de los métodos más aceptados para medir la discapacidad en las encuestas nacionales, ya que se centran en las personas que tienen dificultades para realizar actividades diarias, como caminar, ver o recordar. La conceptualización de las preguntas utilizadas para identificar a la población con discapacidad se basa en el modelo de la [*World Health Organization's International Classification of Functioninf, Disability and Health (ICF)*](https://www.who.int/classifications/international-classification-of-functioning-disability-and-health). Cada vez más países de ALC están incluyendo estas preguntas en los cuestionarios de sus encuestas de hogares y censos, pero, por el momento hay información disponible para Bolivia, Chile, Costa Rica, México, Perú.
+Las preguntas del [*Washington Group*](https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Documents/Questions/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__June_2022_.pdf) son uno de los métodos más aceptados para medir la discapacidad en las encuestas nacionales, ya que se centran en las personas que tienen dificultades para realizar actividades diarias, como caminar, ver o recordar. La conceptualización de las preguntas utilizadas para identificar a la población con discapacidad se basa en el modelo de la [*World Health Organization's International Classification of Functioninf, Disability and Health (ICF)*](https://www.who.int/classifications/international-classification-of-functioning-disability-and-health).
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
@@ -62,19 +62,19 @@ Las preguntas del [*Washington Group*](https://www.washingtongroup-disability.co
 
 -   **Porcentaje de hogares con jefatura femenina**
 
-La jefatura femenina de hogar se calcula como el porcentaje de hogares en los cuales una mujer es identificada como la jefa del hogar por el informante de la encuesta, con respecto al total de hogares en el país.
+Se calcula como el porcentaje de hogares en los cuales una mujer es identificada como la jefa del hogar por el informante de la encuesta, con respecto al total de hogares en el país.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
 -   **Razón de dependencia**
 
-La razón de dependencia se define como el número de personas menores de 15 años y mayores de 65 años en comparación con la población en edad de trabajar, que se define como la población entre los 15 y 64 años.
+Se define como el número de personas menores de 15 años y mayores de 65 años en comparación con la población en edad de trabajar (entre los 15 y 64 años).
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
 -   **Número promedio de miembros del hogar**
 
-Se refiere al promedio del número de personas en un hogar en el país. Se calcula como el número total de personas en el hogar dividido entre el total de hogares en el país.
+Se calcula como el número total de personas en el hogar dividido entre el total de hogares en el país.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
@@ -156,7 +156,7 @@ Estudiantes que asisten a un nivel educativo y que tienen la edad teórica de as
 
 -   **Tasa de terminación escolar**
 
-Se calcula como el número personas que han completado educación primaria o secundaria que tienen entre 3 y 5 años mayor a la edad teórica para el ingreso al último año de ese nivel (de acuerdo con el país) dividido entre la población total de ese grupo de edad.
+El porcentaje de personas que ha completado educación primaria o secundaria y además tienen entre 3 y 5 años más de la edad teórica para el ingreso al último año de ese nivel (de acuerdo con el país) dividido entre la población total de ese grupo de edad.
 
 **En educación primaria:** Porcentaje de niños y jóvenes con entre 3 y 5 años mayores a la edad teórica para finalizar primaria (de acuerdo con el país), que han completado ese nivel.
 
@@ -192,7 +192,7 @@ De la población con 25 o más años, porcentaje de personas con: 0 años de edu
 
 -   **Tasa global de participación**
 
-Porcentaje de la población en edad de trabajar que participa activamente en el mercado de trabajo. Porcentaje que resulta de dividir el total de personas económicamente activas (PEA) entre el número de personas en edad de trabajar (PT). Se entiende como PEA es a aquella que se encuentran ocupada o desocupada. La PT se establece entre 16 y 64 años.
+Porcentaje de la población en edad de trabajar que participa activamente en el mercado de trabajo. Resulta de dividir el total de personas económicamente activas (PEA) entre el número de personas en edad de trabajar (PT). Se entiende como PEA a aquella población que se encuentran ocupada o desocupada. La PT se establece entre 16 y 64 años.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
@@ -204,7 +204,7 @@ Porcentaje que resulta del cociente entre el total personas ocupadas (O) y la po
 
 -   **Tasa de desocupación**
 
-Porcentaje que resulta del cociente entre el total personas desocupadas y la población económicamente activa. Se entiende como desocupado (desempleado abierto) a aquellos que no trabajaron al menos una hora en el periodo de referencia, pero están disponibles para trabajar y han realizado gestiones concretas para encontrar trabajo. La población económicamente activa se refiere a la suma de la población ocupada y la desocupada.
+El cociente entre el total personas desocupadas y la población económicamente activa. Se entiende como desocupado (desempleado abierto) a aquellos que no trabajaron al menos una hora en el periodo de referencia, pero están disponibles para trabajar y han realizado gestiones concretas para encontrar trabajo. La población económicamente activa se refiere a la suma de la población ocupada y la desocupada.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 

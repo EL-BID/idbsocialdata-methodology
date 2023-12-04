@@ -1,60 +1,55 @@
 # Datos desde la perspectiva de género y diversidad {#gdi}
 
-Se ha empezado a fortalecer el trabajo de investigación y estudio de las brechas de la población minoritaria por lo que se ha visto un aumneto en la necesidad de contar con datos de calidad enfocados en poblaciones diversas. Se espera que el contar con datos e indicadores desde perspectiva de género y diversidad en temas de demografía, educación, empleo y vivienda a través de la plataforma, sea un inicio para potenciar el acceso a datos de diversidad.
+En América Latina y el Caribe (ALC), persistente brechas y desafíos que enfrentan las mujeres, y los grupo de población diversa incluyendo a las personas que se identifican como parte de pueblos indígena, afrodescendiente, LGTBQ+ y las personas con discapacidad. Es cada vez más notoria la necesidad de contar con datos e indicadores de calidad desde la perspectiva de género y diversidad.
 
-A continuación, se muestra la fuente de datos, el listado de los indicadores disponibles y la metodología de desagregación subnacional con la que cuenta el dashboard.
+En este tablero se espera generar acceso a datos e indicadores desagregados por género y para poblaciones diversas en temas de demografía, educación, empleo y vivienda para apoyar tanto en la agenda de investigación como en la toma de decisiones y formulación de política pública.
 
-## Fuente de datos:
+A continuación, se detalla la fuente de datos utilizada, se presenta un listado de los indicadores disponibles y se describe la metodología de desagregación subnacional incorporada en el tablero.
 
-Uno de los principales desafíos para realizar y desarrollar diagnósticos en temas de diversidad radica en la disponibilidad de datos que sean representativos de la población indígena, afrodescendiente, LGTBQ+ y personas con discapacidad. El reducido tamaño de estos grupos poblaciones hace que la capacidad de realizar un análisis exhaustivo para documentar las brechas sea limitada debido al reducido tamaño muestra en las fuentes de datos disponibles.
+## Fuente de datos
 
-Por esta razón, la sección de datos con perspectiva de género y diversidad se basa principalmente en el último año disponible los [***Censos armonizados de población y vivienda***](#HC) disponibles para la región.
+Uno de los principales desafíos para medir las brechas socioeconómicas que afectan a los grupo de población diversa es que, dado que representan una proporción muy pequeña de la población en algunos contextos, el tamaño de la muestra de encuestas nacionales no es suficiente para estimar indicadores desagregados.
+
+Por esta razón, en este tablero con perspectiva de género y diversidad descriptos a continuación se construyen utilizando los datos correspondientes al último [***Censos armonizados de población y vivienda***](#HC) disponible para cada país.
 
 ## Indicadores
-
-El dashboard de género y diversidad per
 
 ### Demografía {.unnumbered}
 
 -   **Porcentaje de la población por rango de edad:**
 
-El porcentaje de población por rango de edad se calcula como el porcentaje de la población en una edad específica con respecto al total de la población. En este contexto, la suma de los porcentajes de todos los grupos de edad representados en la pirámide de población debería ser igual al 100%. Los rangos de edad definidos para calcular estos indicadores son los siguientes: 0 a 15 años, 16 a 30 años, 31 a 45 años, 46 a 60 años, 61 a 75 años y 76 años o más.
+El porcentaje de población por rango de edad se calcula como el porcentaje de la población en una edad específica con respecto al total de la población. La suma de los porcentajes de todos los grupos de edad representados en la pirámide de población debería ser igual al 100%. Los rangos de edad definidos para calcular estos indicadores son los siguientes: 0 a 15 años, 16 a 30 años, 31 a 45 años, 46 a 60 años, 61 a 75 años y 76 años o más.
 
 -   **Grupos de población diversa:**
 
--   **Población indígena**
+**Población indígena**: Se calcula como el número de personas que se autoidentifican como indígenas según la clasificación nacional sobre la población total. *Más información sobre cómo se obtiene la información de diversidad ver* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
 
-Porcentaje de la población indígena se calcula como el número de personas que se autoidentifican como indígenas según la clasificación nacional sobre la población total. *Más información sobre cómo se obtiene la información de diversidad ver* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
+**Población afrodescendiente**: Se calcula como el número de personas que se autoidentifican como afrodescendientes según la clasificación nacional sobre la población total. *Más información sobre cómo se obtiene la información de diversidad ver* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
 
--   **Población afrodescendiente**
+**Población con discapacidad**: Se calcula como el número de personas que reportan tener algún grado de dificultad con actividades según los dominios de las preguntas del [*Washington Group*](https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Documents/Questions/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__June_2022_.pdf) sobre el total de la población.
 
-Porcentaje de la población afrodescendiente se calcula como el número de personas que se autoidentifican como afrodescendiente según la clasificación nacional sobre la población total. *Más información sobre cómo se obtiene la información de diversidad ver* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
-
--   **Población con discapacidad**
-
-Porcentaje de personas con discapacidad se calcula como el número de personas que reportan tener al menos alguna dificultad con actividades de la vida diaria según los dominios de las preguntas del ***Washington Group*** sobre el total de la población.
-
-Las preguntas del [*Washington Group*](https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Documents/Questions/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__June_2022_.pdf) son uno de los métodos más aceptados para medir la discapacidad en las encuestas nacionales, ya que se centran en las personas que tienen dificultades para realizar actividades diarias, como caminar, ver o recordar. La conceptualización de las preguntas utilizadas para identificar a la población con discapacidad se basa en el modelo de la [*World Health Organization's International Classification of Functioninf, Disability and Health (ICF)*](https://www.who.int/classifications/international-classification-of-functioning-disability-and-health). Cada vez más países de ALC están incluyendo estas preguntas en los cuestionarios de sus encuestas de hogares y censos, pero, por el momento hay información disponible para Bolivia, Chile, Costa Rica, México, Perú.
+Las preguntas del *Washington Group* son uno de los métodos más aceptados para medir la discapacidad en las encuestas nacionales, ya que se centran en las personas que tienen dificultades para realizar actividades diarias, como caminar, ver o recordar. La conceptualización de las preguntas utilizadas para identificar a la población con discapacidad se basa en el modelo de la [*World Health Organization's International Classification of Functioninf, Disability and Health (ICF)*](https://www.who.int/classifications/international-classification-of-functioning-disability-and-health).
 
 ### Empleo {.unnumbered}
 
 -   **Tasa global de participación**
 
-Porcentaje de la población en edad de trabajar que participa activamente en el mercado de trabajo. Porcentaje que resulta de dividir el total de personas económicamente activas (PEA) entre el número de personas en edad de trabajar (PT). Se entiende como PEA es a aquella que se encuentran ocupada o desocupada. La PT se establece entre 16 y 64 años.
+Porcentaje de la población en edad de trabajar que participa activamente en el mercado de trabajo. Resulta de dividir el total de personas económicamente activas (PEA) entre el número de personas en edad de trabajar (PT). Se entiende como PEA a aquella población que se encuentran ocupada o desocupada. La PT se establece entre 16 y 64 años.
 
 -   **Tasa de desocupación**
 
-Porcentaje que resulta del cociente entre el total personas desocupadas y la población económicamente activa. Se entiende como desocupado (desempleado abierto) a aquellos que no trabajaron al menos una hora en el periodo de referencia, pero están disponibles para trabajar y han realizado gestiones concretas para encontrar trabajo. La población económicamente activa se refiere a la suma de la población ocupada y la desocupada.
+El cociente entre el total personas desocupadas y la población económicamente activa. Se entiende como desocupado (desempleado abierto) a aquellos que no trabajaron al menos una hora en el periodo de referencia, pero están disponibles para trabajar y han realizado gestiones concretas para encontrar trabajo. La población económicamente activa se refiere a la suma de la población ocupada y la desocupada.
 
 ### Educación {.unnumbered}
 
 -   **Tasa de terminación escolar**
 
-Se calcula como el número personas que han completado educación primaria o secundaria que tienen entre 3 y 5 años mayor a la edad teórica para el ingreso al último año de ese nivel (de acuerdo con el país) dividido entre la población total de ese grupo de edad.
+El porcentaje de personas que ha completado educación primaria o secundaria y además tienen entre 3 y 5 años más de la edad teórica para el ingreso al último año de ese nivel (de acuerdo con el país) dividido entre la población total de ese grupo de edad.
 
 **En educación primaria:** Porcentaje de niños y jóvenes con entre 3 y 5 años mayores a la edad teórica para finalizar primaria (de acuerdo con el país), que han completado ese nivel.
 
 **En educación secundaria:** Porcentaje de jóvenes con entre 3 y 5 años mayores a la edad teórica para finalizar secundaria (de acuerdo con el país), que han completado ese nivel.
+
 
 ### Hogares {.unnumbered}
 
@@ -62,15 +57,15 @@ Se calcula como el número personas que han completado educación primaria o sec
 
 -   **Acceso a internet:** El hogar reporta tener acceso a conexión local de internet.
 
--   **Carro:** El hogar reporta que alguno de sus miembros posee un carro.
+-   **Auto:** El hogar reporta que alguno de sus miembros posee un auto.
 
 -   **Teléfono celular:** El acceso se define como al menos una persona del hogar cuenta con servicio de teléfono celular.
 
 ## Desagregaciones subnacionales
 
-Se utiliza la variable numérica de 6 dígitos Geolev1 para realizar la agrupación geográfica, la cual es extraída de [@IPUMS][^03-gyd-1]. Esta variable indica la unidad administrativa (estado, departamento, provincia, entre otras) en la que se empadronó el hogar y ha sido armonizada teniendo en cuenta los cambios de límites y la geografía censal para cada país a lo largo del tiempo. Es importante mencionar que las unidades administrativas se combinan para crear una sola unidad en los siguientes casos: i) unidades grandes se dividen en años posteriores, ii) unidades enteras o partes de unidades se combinan de nuevas maneras o iii) los límites entre unidades cambian de un censo a otro. Las unidades combinadas generalmente conservan el código de la unidad con la población más alta en la muestra del censo internacional de IPUMS más reciente.
+La desagregación subnacional que se utiliza en este dashboard está basada en las unidades administrativas de los Censos armonizados de población y vivienda de [@IPUMS][^03-gyd-1]. En específico se utiliza la variable numérica de 6 dígitos Geolev1 para realizar la agrupación geográfica. Esta variable indica la unidad administrativa (estado, departamento, provincia, entre otras) en la que se empadronó el hogar. Dado que las series de microdatos de los censos están armonizadas con respecto a los censos anteriores y algunas de las unidades administrativas han cambiado se realiza un ejercicio de armonización de las unidades administrativas para hacerlas comparables entre censos. En la mayoría de los casos, esto implica que algunas unidades administrativas según el código de IPUMS agrupa a más de una unidad administrativa de acuerdo cona la división política actual de los países. Por ejemplo, en Colombia actualmente Bogotá D.C. y Cundinamarca son unidades administrativas distintas; sin embargo, estas se encuentran agrupadas en IPUMS con el código 170011.
+
+Es importante mencionar que las unidades administrativas se combinan para crear una sola unidad en los siguientes casos: i) unidades grandes se dividen en años posteriores, ii) unidades enteras o partes de unidades se combinan de nuevas maneras o iii) los límites entre unidades cambian de un censo a otro. Las unidades combinadas generalmente conservan el código de la unidad con la población más alta en la muestra del censo internacional de IPUMS más reciente.
 
 [^03-gyd-1]: Disponible en: <https://international.ipums.org/international/resources/misc_docs/geolevel1.pdf>, actualizado en enero de 2022.
-
-Por ejemplo, actualmente Bogotá D.C. y Cundinamarca en Colombia son unidades administrativas individuales; sin embargo, estas se encuentran agrupadas en IPUMS con el código 170011.
 
