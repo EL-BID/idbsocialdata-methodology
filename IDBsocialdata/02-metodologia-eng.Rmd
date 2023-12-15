@@ -1,0 +1,335 @@
+# Methodology {#indicadores-eng}
+
+The methodology used to estimate the indicators is described below.
+
+## Demography and Migration
+
+### Population {.unnumbered}
+
+-   **Population by Age Range**
+
+It is calculated as the percentage of the population at a specific age out of the total population. In this context, the sum of the percentages of all age groups represented in the population pyramid should equal 100 percent.
+
+The age ranges defined to calculate these indicators are as follows: 0 to 15 years, 16 to 30 years, 31 to 45 years, 46 to 60 years, 61 to 75 years, and 76 years or more.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Migrants {.unnumbered}
+
+-   **Migrants as a percentage of the total population**
+
+It is calculated as the percentage of migrants out of the total population residing in the country.
+
+An individual is considered a migrant if they report being born in a country different from where the survey is conducted.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Latin American Migrant**
+
+It is calculated as the percentage of migrants from one of the 26 IDB countries of LAC out of the total migrant population.
+
+An individual is considered a migrant if they report being born in a country other than the one in which the survey is conducted.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Migrants residing in the country for more than five years**
+
+It is calculated as the percentage of migrants who have resided in the country where the survey was conducted for more than five years out of the total migrant population.
+
+An individual is considered a migrant if they report being born in a country other than the one in which the survey is conducted.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Diversity {.unnumbered}
+
+-   **Indigenous population**
+
+It is calculated as the number of people who self-identify as Indigenous according to the national ranking of the total population.
+
+*Learn more about how diversity information is obtained:* [*see Recommendation on Diversity Data in the Social*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Afro-descendant population**
+
+It is calculated as the number of people who self-identify as Afro-descendant according to the national classification of the total population.
+
+*Learn more about how diversity information is obtained:* [*see Recommendation on Diversity Data in the Social*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Population with disabilities**
+
+It is calculated as the number of people who report having at least some difficulty with activities based on the domains of the [*Washington Group's*](https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Documents/Questions/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__June_2022_.pdf) questions on the total population.
+
+The questions of the Washington Group are one of the most widely accepted methods of measuring disability in national surveys, as they focus on people who have difficulty performing daily activities, such as walking, seeing, or remembering. The conceptualization of the questions used to identify the population with disabilities is based on the model of the [*World Health Organization's International Classification of Functioninf, Disability and Health (ICF)*](https://www.who.int/classifications/international-classification-of-functioning-disability-and-health).
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+## Housing
+
+### Household characteristics {.unnumbered}
+
+-   **Percentage of female-headed households**
+
+It is calculated as the percentage of households in which a woman is identified as the head of the household by the survey informant out of the total number of households in the country.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Dependency ratio**
+
+It is defined as the number of people under the age of 15 plus the number of people over 65 compared to the working-age population (between the ages of 15 and 64).
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Average number of household members**
+
+Also known as household size, it is calculated by determining the number of members per household and then computing the average.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Access to basic services {.unnumbered}
+
+-   **Percentage of households with access to basic services**
+
+It is calculated by determining the percentage of households reporting access to basic services and dividing this by the total number of households. Access is calculated individually for each service, considering the specific characteristics of each one:
+
+**Electricity:** Access is identified when households report that the primary lighting source is public or private.
+
+**Aqueduct water:** Access is defined as households reporting that the primary water source for consumption is the public distribution network.
+
+**Sanitation:** According to the World Health Organization (WHO) and the Sustainable Development Goals (SDGs), improved sanitation prevents human contact with excreta hygienically. The most common enhanced sanitation facilities include sewer connections, septic tanks, improved and ventilated pit latrines, and flagstone latrines. This classification is made according to the UNICEF Joint Monitoring Program (JMP) For Supply and Sanitation (2017).
+
+**Internet:** The household reports having access to a local internet connection.
+
+**Cell Phone:** Access is defined as at least one person in the household having cell phone service.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+## Poverty and inequality
+
+### Population by Income Level {.unnumbered}
+
+-   **Extreme poverty (PPP 2011):** Percentage of the population living in households with income per capita below the international poverty line of \$3.1 per person per day adjusted to 2011 Purchasing Power Parity (PPP).
+
+-   **Moderate poverty (PPP 2011):** Percentage of the population living in households with income per capita between \$3.1 and \$5.0 per person per day adjusted to 2011 Purchasing Power Parity (PPP).
+
+-   **Vulnerable (PPP 2011):** Percentage of the population living in households with income per capita between \$5.0 and \$12.4 per person per day adjusted to 2011 Purchasing Power Parity (PPP).
+
+-   **Middle Class (PPP 2011):** Percentage of population living in households with income per capita between \$12.4 and \$62.0 per person per day adjusted to 2011 Purchasing Power Parity (PPP).
+
+-   **High Income (PPP 2011):** Percentage of the population living in households with income per capita greater than \$62.0 per person per day adjusted to 2011 Purchasing Power Parity (PPP).
+
+-   **Population by income level (number of people):** This is calculated by multiplying the income level rate mentioned above by the total population.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Inequality {.unnumbered}
+
+-   **Gini coefficient:** The Gini coefficient of per capita household income is a measure of inequality that compares the real income distribution to a perfectly equitable distribution. It is based on the Lorenz curve, which shows the percentage accumulation of total revenue relative to the cumulative number of recipients. The Gini coefficient represents the area between the Lorenz curve and the hypothetical equality line---the values of the coefficient range from 0 (complete equality) to 1 (total inequality).
+
+-   **Dispersion ratio between deciles**
+
+The decile dispersion ratio is a measure of inequality that represents the per capita income of the wealthiest households as a multiple of the income of the poorest. The distribution of per capita household income is referenced to calculate the ratios, and the 90th, 50th, and 10th percentiles are obtained considering the sample weights.
+
+**Income ratio of the wealthiest decile to the poorest decile:** This represents how much higher the per capita household income is for the 90th percentile compared to the 10th percentile. To obtain it, the per capita income of the household in the 90th percentile is divided by the income in the 10th percentile.
+
+**Ratio of median income to poorest decile:** This represents how much higher the per capita household income of the 50th percentile is than the income of the household in the 10th percentile. To obtain it, the per capita income of the household in the 50th percentile is divided by the income in the 10th percentile.
+
+**Richest to median income ratio:** This represents how much the per capita household income of the household is in the 90th percentile compared to the 50th percentile. To obtain this, the per capita income of the household in the 90th percentile is divided by those in the 50th percentile.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+## Education
+
+### Attendance indicators {.unnumbered}
+
+-   **Net attendace rate**
+
+$$ 
+Net\ Attendace\ Rate_i = \frac{Number\ of\ students\ in\  age\ group\ x\ of\ level\ i}{number\ of\ people\ in\ age\ group\ x}x 100
+$$ where $i$ is the level of education and $X$ is the official age group for a given level of education.
+
+Total of students attending the school of the official age group for a given level as a percentage of the total population in that age range (Unesco). The official ages for each country were calculated based on the age of entry and duration of each educational level, as established by the UNESCO International Standard Classification of Education (ISCED 2011).
+
+**Primary:** The standard age range is between 6 and 11 years old. There are some exceptions by country. The age range in Colombia and Brazil is between 6 and 10 years old; in Barbados, it is between 5 and 10 years old; and in Trinidad and Tobago, it is between 6 and 12 years old.
+
+**Secondary:** The standard age range is between 12 and 17 years old. There are some exceptions by country. The age range in Costa Rica, Guatemala, Guyana, Jamaica, Nicaragua, Peru, and Venezuela is between 12 and 16 years old. In Barbados, it is between 11 and 15 years old; in Colombia, between 11 and 16 years old; in Brazil, between 11 and 17 years old; in Haiti and Suriname, between 12 and 18 years old; and in Trinidad and Tobago, between 13 and 18 years old.
+
+**Superior:** The standard age range is between 18 and 23 years old. There are some exceptions by country. The age range in Costa Rica, Guatemala, Guyana, Jamaica, Nicaragua, Peru, Venezuela, and Colombia is between 17 and 23 years old. In Haiti, Suriname, and Trinidad and Tobago, it is between 19 and 23 years old, and in Barbados, it is between 16 and 23 years old.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Completion indicators {.unnumbered}
+
+-   **School Completion Rate**
+
+The percentage of people who have completed primary or secondary education and are 3 to 5 years older than the theoretical age for entry into the final year of that level (depending on the country) divided by the total population of that age group.
+
+**In primary education:** Percentage of children and young people 3 to 5 years older than the theoretical age to finish primary school (according to the country) who have completed that level.
+
+**In secondary education:** Percentage of young people 3 to 5 years older than the theoretical age to finish secondary school (according to the country) who have completed that level.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Indicators of school leaving {.unnumbered}
+
+-   **Early school leaving rate**
+
+Number of people aged 18-24 who have not completed secondary education and do not attend any educational institution among the total number of people in that age range.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Indicators of young people not in work or education {.unnumbered}
+
+-   **Percentage of young people aged 15-24 who are "Not in Education, Employment, or Training" (NEETs)**
+
+Number of people aged 15-24 who are unemployed or inactive (as defined by the International Labor Organization) and do not attend any educational institution out of the total number of people in that age range.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Educational indicators of the adult population {.unnumbered}
+
+-   **Percentage of adult population by years of education**
+
+The percentage of the population aged 25 or above with different levels of education. The categories are as follows: no schooling completed, 1-5 years of education completed, 6 years of schooling completed, 7-11 years of education completed, 12 years of education completed, or 13 years or more of schooling completed. The sum of these categories is equal to 100%.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+## Employment and Social Security
+
+### Labor participation {.unnumbered}
+
+-   **Labor Force Participation**
+
+Percentage of the working-age population actively participating in the labor market. It is the result of dividing the total number of economically active population (EAP) by the number of working-age people. EAP is understood to be the population that is employed or unemployed. The working age population is between 16 and 64 years old. **Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Occupancy rate**
+
+Percentage resulting from the ratio of the total number of employed persons to the working-age population. Under this definition, employed persons are understood to be those who have worked at least one hour in the reference period (generally the last week or the last month if the survey asks for the week) or who, having a job, have not worked for extraordinary reasons (sick leave, strike, vacation, etc.).
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Unemployment rate**
+
+The ratio of the total number of unemployed persons to the economically active population. Unemployed (openly unemployed) are understood to be those who did not work at least one hour in the reference period but are available for work and have made concrete arrangements to find a job. The economically active population is the sum of the employed and unemployed population.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Underemployment rate**
+
+Percentage resulting from dividing the number of underemployed workers and the total employed population. Underemployed workers work 30 hours a week or less but are willing to work more.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Social Security
+
+-   **Formality**
+
+Percentage resulting from dividing the total number of employed people who contribute to social security pensions for their work by the total employed population. Affiliates are used if contributors are not available in the survey.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Self-employment rate**
+
+Percentage resulting from dividing the number of self-employed workers by the total number of employed workers. Self-employed workers work in companies or practice independently and do not hire employees.
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+## Health and SOcial Protection
+
+### Funding and resources
+
+-   **Hospital beds per 10,000 inhabitants**
+
+The number of hospital beds available per 10,000 inhabitants of a population.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Doctors per 10,000 inhabitants**
+
+It includes general practitioners, specialist physicians, and physicians not defined in more detail at the national or sub-national level. Depending on the nature of the original data source, it may include only practicing (active) physicians or all registered physicians. The ISCO-08 codes included here are 221,2211,2212.
+
+The WHO framework for classifying health workers is based on the latest revisions of international classifications, including the International Standard Classification of Occupations (2008 revision), the International Standard Classification of Education (2011 revision), and the International Standard Industrial Classification of All Economic Activities (revision 4).
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Health expenditures as a percentage of GDP**
+
+Current health expenditure includes yearly healthcare goods and services as a percentage of GDP. This indicator does not include health capital expenditures, such as buildings, machinery, information technology, and vaccine stocks for emergencies or outbreaks. Current health expenditure equals the sum of public, private, and out-of-pocket spending on health.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+### Social Determinants and Lifestyle
+
+-   **Prevalence of overweight in adults**
+
+Percentage of people aged 18 years and older with a body mass index (BMI) of 25 kg/m² or higher and standardized by age.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Prevalence of low birth weight**
+
+The percentage of newborns weighing less than 2,500 g (less than 5.51 pounds) at birth.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   *Percentage of population using at least essential sanitation services*
+
+The percentage of people who use at least basic sanitation services corresponds to those who use improved sanitation facilities that are not shared with other households. Improved sanitation facilities include flush sewer systems, septic tanks, latrines, improved ventilated latrines, composting toilets, or flagstone latrines.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Percentage of the population living in poverty living in a CCP beneficiary household**
+
+Percentage of the population with incomes between \$3.1 and \$5.0 per capita per day (2011 PPP) living in a household benefiting from a Conditional Cash Transfer Program (CCTP).
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+-   **Percentage of beneficiaries in moderate poverty**
+
+Percentage of Conditional Cash Transfer Program (CCTP) recipients with per capita household income between \$3.1 and \$5.0 (2011 PPP).
+
+**Data source:** [*IDB's Harmonized Household Surveys*](#HHS-e)
+
+### Quality services
+
+-   **BCG Vaccination Coverage in 1-Year-Old Children**
+
+The percentage of live births who have received one dose of Bacillus Calmette-Guérin (BCG) vaccine each year.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Universal Health Coverage Index**
+
+Coverage of essential health services (the average coverage based on tracing interventions including reproductive, maternal, newborn, and child health, infectious diseases, noncommunicable diseases, and capacity and access to services among the general population and the most disadvantaged). The indicator is an index reported on a scale without units from 0 to 100, calculated as the geometric mean of 14 indicators that trace the coverage of health services. The tracing indicators are organized by four service coverage components: 1. Reproductive, maternal, newborn, and child health 2. Infectious diseases 3. Non-communicable diseases 4. Capacity and access to service. It refers to Sustainable Development Goal 3.8.1.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+### Healthy Lives
+
+-   **Life expectancy at birth**
+
+The average number of years a newborn is expected to live if exposed to sex- and age-specific mortality rates prevailing at birth, during a specific year, in a given country, territory, or geographic area.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Under-5 mortality rate per 1,000 live births**
+
+The infant mortality rate is the probability that a child born in a specific year or period will die before reaching the age of five, and it is subject to the age-specific mortality rates of that period.
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+### Financial Protection
+
+-   **Out-of-pocket expenditure as a percentage of GDP**
+
+Out-of-pocket spending as a percentage of GDP estimates how much households in each country directly spend on health care. It calculates the ratio of out-of-pocket expenditure to total current health expenditure. It is defined as any expense incurred by a household when a member uses a health good or service to receive any care (preventive, curative, rehabilitative, long-term, or palliative) provided by any provider for any disease, condition, or health condition; in any setting (outpatient, hospital, home).
+
+**Data source:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Population with household health expenditures more significant than 10% of total household expenditure or income**
+
+The percentage of the population with household health expenditures higher than 10% of total household expenditure or income. This indicator relates to the 3.8.2 Sustainable Development Goals (SDGs).
+
+**Data source:** [*World Health Organization (WHO) Global Health Expenditure.*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/population-with-household-expenditures-on-health-greater-than-10-of-total-household-expenditure-or-income-(sdg-3-8-2)-(-))

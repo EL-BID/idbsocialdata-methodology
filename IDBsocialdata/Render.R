@@ -1,3 +1,6 @@
+setwd("~/GitHub/scl-doc/IDBsocialdata")
+
+
 bookdown::render_book("index.Rmd", "bookdown::gitbook")
 
 

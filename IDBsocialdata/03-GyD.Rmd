@@ -10,7 +10,7 @@ A continuación, se detalla la fuente de datos utilizada, se presenta un listado
 
 Uno de los principales desafíos para medir las brechas socioeconómicas que afectan a los grupo de población diversa es que, dado que representan una proporción muy pequeña de la población en algunos contextos, el tamaño de la muestra de encuestas nacionales no es suficiente para estimar indicadores desagregados.
 
-Por esta razón, en este tablero con perspectiva de género y diversidad descriptos a continuación se construyen utilizando los datos correspondientes al último [***Censos armonizados de población y vivienda***](#HC) disponible para cada país.
+Por esta razón, en este tablero con perspectiva de género y diversidad descriptos a continuación se construyen utilizando los datos correspondientes al último [*Censos armonizados de población y vivienda*](#HC) disponible para cada país.
 
 ## Indicadores
 

@@ -39,7 +39,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Overview {.unnumbered}
 
-```{r IDB, out.width='40%', fig.align='left', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://www.iadb.org/en/sharing-knowledge/data/social-data', fig.show='hold',  out.extra='style="float:right; padding:0px"'}
+```{r IDB, out.width='45%', fig.align='left', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://www.iadb.org/en/sharing-knowledge/data/social-data', fig.show='hold',  out.extra='style="float:right; padding:0px"'}
 knitr::include_graphics('figure/IDB.png')
 ```
 
@@ -55,7 +55,7 @@ This document outlines the methodology used to estimate and present data and ind
 
 -   [**Spanish**](#intro-esp)
 
--   **Portuguese**
+-   [**Portuguese**](#intro-pt)
 
 **To cite the platform, please use:** Inter-American Development Bank -IDB (2023). "Data and Indicators of Latin America and the Caribbean." Available in <https://www.iadb.org/en/sharing-knowledge/data/social-data>. Accessed 2023."
 

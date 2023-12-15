@@ -1,0 +1,333 @@
+# Metodologia {#indicadores-pt}
+
+A metodologia usada para estimar os indicadores é descrita a seguir.
+
+## Demografia e migração
+
+### População {.unnumbered}
+
+-   **População por faixa etária**
+
+É calculada como a porcentagem da população em uma idade específica em relação à população total. Nesse contexto, a soma das porcentagens de todas as faixas etárias representadas na pirâmide populacional deve ser igual a 100%.
+
+As faixas etárias definidas para o cálculo desses indicadores são: 0 a 15 anos, 16 a 30 anos, 31 a 45 anos, 46 a 60 anos, 61 a 75 anos e 76 anos ou mais.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Migrantes {.unnumbered}
+
+-   **Migrantes como porcentagem da população total**
+
+É calculada como a porcentagem de migrantes em relação à população total que reside no país. Um indivíduo é considerado migrante se relata ter nascido em um país diferente daquele em que a pesquisa é realizada.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Migrantes latino-americanos**
+
+É calculada como a porcentagem de migrantes provenientes de um dos 26 países da América Latina e do Caribe e que residem no país onde a pesquisa é realizada, em relação ao total da população migrante. Um indivíduo é considerado migrante se relata ter nascido em um país diferente daquele em que a pesquisa é realizada.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Migrantes que residem no país há mais de 5 anos**
+
+É calculada como a porcentagem de migrantes que residem há mais de cinco anos no país onde a pesquisa é realizada, em relação ao total da população migrante. Um indivíduo é considerado migrante se informa ter nascido em um país diferente do país em que a pesquisa é realizada.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Diversidade {.unnumbered}
+
+-   **População indígena**
+
+A porcentagem de população indígena é calculada como o número de pessoas que se autoidentificam como indígenas, de acordo com a classificação nacional, sobre a população total. *Por mais informações sobre como os dados de diversidade são obtidos consulte a* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **População afrodescendente**
+
+A porcentagem de população afrodescendente é calculada como o número de pessoas que se autoidentificam como afrodescendentes, de acordo com a classificação nacional, sobre a população total. *Por mais informações sobre como os dados de diversidade são obtidos consulte a* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **População com deficiência**
+
+A porcentagem de população com deficiência é calculada como o número de pessoas que informam ter pelo menos alguma dificuldade com atividades, de acordo com os domínios das perguntas do [*Washington Group*](https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Documents/Questions/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__June_2022_.pdf), sobre a população total.
+
+As perguntas do *Washington Group* são um dos métodos mais amplamente aceitos para medir a deficiência em pesquisas nacionais, pois se concentram em pessoas que têm dificuldade para realizar atividades diárias, como andar, enxergar ou lembrar. A conceitualização das perguntas usadas para identificar a população com deficiência baseia-se no modelo da[*World Health Organization's International Classification of Functioninf, Disability and Health (ICF).*](https://www.who.int/classifications/international-classification-of-functioning-disability-and-health).
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+## Habitação 
+
+### Características dos domicílios {-}
+
+-   **Porcentagem de domicílios chefiados por mulheres**
+
+É calculada como a porcentagem de domicílios em que uma mulher é identificada como chefe de família pelo entrevistado da pesquisa, em relação ao número total de domicílios no país.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Índice de dependência**
+
+É definido como o número de pessoas com menos de 15 e mais de 65 anos de idade em comparação com a população em idade de trabalhar (de 15 a 64 anos de idade).
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Número médio de membros do domicílio**
+
+É calculado como o número total de pessoas no domicílio dividido pelo número total de domicílios no país.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Acesso aos serviços básicos {-}
+
+-   **Porcentagem de domicílios com acesso aos serviços básicos**
+
+É calculada determinando a porcentagem de domicílios que relatam ter acesso aos serviços básicos e dividindo esse número pelo número total de domicílios. O acesso é calculado individualmente para cada serviço, levando em consideração as características específicas de cada serviço:
+
+**Energia elétrica:** o acesso é definido como os domicílios que informam que a principal fonte de iluminação é a eletricidade, seja ela pública ou privada.
+
+**Água encanada:** o acesso é definido como os domicílios que informam que a principal fonte de água para consumo é a rede pública de distribuição.
+
+**Saneamento:** de acordo com a Organização Mundial da Saúde (OMS) e os Objetivos de Desenvolvimento Sustentável (ODS), saneamento melhorado é definido como o saneamento que impede higienicamente o contato das pessoas com excrementos humanos. As instalações de saneamento melhorado mais comuns incluem conexões de esgoto, fossas sépticas, latrinas de fossa ventiladas melhoradas e latrinas de laje. Essa classificação é realizada de acordo com o UNICEF Joint Monitoring Programe (JMP) For Supply and Sanitation (2017).
+
+**Internet:** o domicílio informa ter acesso a uma conexão local com a Internet.
+
+**Telefone celular:* o acesso é definido como pelo menos uma pessoa no domicílio com serviço de telefone celular.
+
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+## Pobreza e desigualdade
+
+### População por nível de renda {.unnumbered}
+
+-   **Pobreza extrema (PPA 2011):** porcentagem da população que vive em domicílios com renda per capita abaixo da linha de pobreza internacional de USD 3,1 por pessoa por dia, ajustada à Paridade do Poder de Compra (PPC) de 2011.
+
+-  **Pobreza moderada (PPC 2011):** porcentagem da população que vive em domicílios com renda per capita entre USD 3,1 e USD 5,0 por pessoa por dia, ajustada à Paridade do Poder de Compra (PPC) de 2011.
+
+- **Vulnerável (PPC 2011):** porcentagem da população que vive em domicílios com renda per capita entre USD 5,0 e USD 12,4 por pessoa por dia, ajustada à Paridade do Poder de Compra (PPC) de 2011.
+
+- **Classe média (PPC 2011):** porcentagem da população que vive em domicílios com renda per capita entre USD 12,4 e USD 62,0 por pessoa por dia, ajustada à Paridade do Poder de Compra (PPC) de 2011.
+
+- **Alta renda (PPC 2011):** porcentagem da população que vive em domicílios com renda per capita superior a USD 62,0 por pessoa por dia, ajustada à Paridade do Poder de Compra (PPC) de 2011.
+
+- **População por nível de renda (número de pessoas):** é calculada pela multiplicação da taxa de nível de renda, mencionada acima, pela população total.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Desigualdad {.unnumbered}
+
+-   **Coeficiente de Gini:** o coeficiente de Gini da renda domiciliar per capita é uma medida de desigualdade que compara a distribuição real da renda com uma distribuição perfeitamente igualitária. Ele se baseia na curva de Lorenz, que mostra o acúmulo percentual da renda total em relação ao número cumulativo de pessoas que recebem a renda. Nesse contexto, o coeficiente de Gini representa a medida da área entre a curva de Lorenz e a linha de igualdade hipotética. Os valores do coeficiente variam de 0 (igualdade total) a 1 (desigualdade total).
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Medida de dispersão entre decis**
+
+A medida de dispersão entre decis é uma medida de desigualdade que representa a renda per capita dos domicílios mais ricos como um múltiplo da renda dos mais pobres. Para calculá-lo, é referenciada a distribuição da renda per capita das famílias e são obtidos os percentis 90, 50 e 10 considerando os pesos da amostra.
+
+**Proporção entre a renda do decil mais rico e do decil mais pobre:** representa quantas vezes a renda per capita do domicílio no percentil 90 é maior do que a renda do percentil 10. Para obtê-la, a renda per capita do domicílio no percentil 90 é dividida pela renda do domicílio no percentil 10.
+
+**Proporção entre a média de renda e o decil mais pobre:** representa quantas vezes a renda per capita do domicílio no percentil 50 é maior do que a renda do percentil 10. Para obtê-la, a renda per capita do domicílio no percentil 50 é dividida pela renda do domicílio no percentil 10.
+
+**Proporção entre a renda do decil mais rico e a média de renda:** representa quantas vezes a renda per capita do domicílio no percentil 90 é maior do que a do domicílio no percentil 50. Para obtê-la, a renda per capita do domicílio no percentil 90 é dividida pela renda do domicílio no percentil 50.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+## Educación
+
+### Indicadores de asistencia {.unnumbered}
+
+-   **Taxa líquida de frequência**
+
+$$ 
+Taxa\ líquida\ de\ frequênciaa_i = \frac{= Número\ de\ alunos\ nível\ i\ de\ x }{Número\ de\ pessoas\ de\ X}x 100
+$$ Onde $$i$$ é o nível educacional e $$x$$ é a idade teórica de frequentar esse nível educacional.
+
+**Ensino fundamental:** a faixa etária padrão é de 6 a 11 anos. Há algumas exceções por país. A faixa etária na Colômbia e no Brasil é de 6 a 10 anos; em Barbados é de 5 a 10 anos; e em Trinidad e Tobago é de 6 a 12 anos.
+
+**Ensino médio:** a faixa etária padrão é de 12 a 17 anos. Há algumas exceções por país. A faixa etária na Costa Rica, Guatemala, Guiana, Jamaica, Nicarágua, Peru e Venezuela é de 12 a 16 anos. Em Barbados é de 11 a 15 anos; na Colômbia é de 11 a 16 anos; no Brasil é de 11 a 17 anos; no Haiti e no Suriname é de 12 a 18 anos; e em Trinidad e Tobago, de 13 a 18 anos.
+
+**Ensino superior:** a faixa etária padrão é de 18 a 23 anos. Há algumas exceções por país. A faixa etária na Costa Rica, Guatemala, Guiana, Jamaica, Nicarágua, Peru, Venezuela e Colômbia é de 17 a 23 anos. No Haiti, Suriname e Trinidad e Tobago é de 19 a 23 anos, e em Barbados, entre 16 e 23 anos.
+
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Indicadores de conclusão {.unnumbered}
+
+-   **Taxa de conclusão escolar**
+
+A porcentagem de pessoas que concluíram o ensino fundamental ou o ensino médio e têm idade entre 3 e 5 anos acima da idade teórica para ingressar no último ano desse nível (de acordo com o país) dividida pela população total dessa faixa etária.
+
+**No ensino fundamental:** porcentagem de crianças e jovens com idade entre 3 e 5 anos acima da idade teórica de conclusão do ensino fundamental (de acordo com o país), que concluíram o ensino fundamental. 
+
+**No ensino médio:** porcentagem de jovens com idade entre 3 e 5 anos acima da idade teórica de conclusão do ensino médio (de acordo com o país), que concluíram o ensino médio.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Indicadores de abandono {.unnumbered}
+
+-   **Taxa de abandono escolar precoce**
+
+Número de pessoas com idade entre 18 e 24 anos que não concluíram o ensino médio e não frequentam nenhuma instituição educacional, sobre o número total de pessoas nessa faixa etária.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Indicadores de jovens que não trabalham nem estudam {.unnumbered}
+
+- **Porcentagem de jovens com idade entre 15 e 24 anos que “não estudam nem trabalham” (Nem-nem):** Número de pessoas com idade entre 15 e 24 anos que estão desempregadas ou inativas (conforme definido pela Organização Internacional do Trabalho) e que não frequentam nenhuma instituição de ensino, sobre o número total de pessoas nessa faixa etária.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Indicadores educacionais para a população adulta {.unnumbered}
+
+-   **Porcentagem da população adulta por anos de escolaridade**
+
+Da população com 25 anos ou mais, a porcentagem de pessoas com: 0 anos de escolaridade concluídos; 1-5 anos de escolaridade concluídos; 6 anos de escolaridade concluídos; 7-11 anos de escolaridade concluídos; 12 anos de escolaridade concluídos ou 13 ou mais anos de escolaridade concluídos. A soma dessas categorias é 100%.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+## Emprego e seguridade social
+
+### Participação no mercado de trabalho {.unnumbered}
+
+-   **Taxa de participação geral**
+
+Porcentagem da população em idade de trabalhar que participa ativamente do mercado de trabalho. É o resultado da divisão do número total de pessoas economicamente ativas (PEA) pelo número de pessoas em idade de trabalhar (PT). A PEA é entendida como a população que está ocupada ou desocupada. A PT é estabelecida entre 16 e 64 anos de idade.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Taxa de ocupação**
+
+Porcentagem que resulta do quociente entre o total de pessoas ocupadas (O) e a população em idade de trabalhar (PT). De acordo com essa definição, entende-se que as pessoas ocupadas são aquelas que trabalharam pelo menos uma hora no período de referência (geralmente o último mês ou a última semana, se a pesquisa perguntar pela semana) ou que, tendo emprego, não trabalharam por motivos extraordinários (licença médica, greve, férias etc.).
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Taxa de desocupação**
+
+É o quociente entre o número total de pessoas desocupadas e a população economicamente ativa. Consideram-se desocupados (desempregado aberto) àqueles que não trabalharam por pelo menos uma hora no período de referência, mas estão disponíveis para trabalhar e fizeram esforços específicos para encontrar trabalho. A população economicamente ativa refere-se à soma da população ocupada e a desocupada.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Taxa de subocupação**
+
+Porcentagem que resulta da divisão do número de trabalhadores subocupados pelo número total da população ocupada. Consideram-se trabalhadores subocupados àquelas pessoas ocupadas que trabalham 30 horas por semana ou menos, mas estão dispostas a trabalhar mais.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Emprego e seguridade social {.unnumbered}
+
+-   **Formalidade**
+
+Porcentagem que resulta do quociente entre o número total de pessoas ocupadas que contribuem para a previdência social em pensões por seu trabalho e o número total da população ocupada. Caso os contribuintes não estejam disponíveis na pesquisa, serão utilizados os afiliados.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+-   **Taxa de autoemprego (trabalho autônomo)**
+
+Porcentagem que resulta da divisão do número total de trabalhadores por conta própria entre o número total de trabalhadores ocupados. Os trabalhadores por conta própria são aqueles que trabalham em seu próprio negócio ou exercem sua profissão de forma independente e não contratam empregados.
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+## Saúde e proteção social
+
+### Financiamiento y recursos {.unnumbered}
+
+-   **Leitos hospitalares por 10.000 habitantes**
+
+Número de leitos hospitalares disponíveis por 10.000 habitantes.
+
+**Fonte de dados:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Médico por 10.000 habitantes**
+
+Inclui médicos clínicos gerais, médicos especialistas e médicos sem outra definição, no âmbito nacional e/ou subnacional em questão. Dependendo da natureza da fonte de dados original, pode incluir apenas médicos em exercício (ativos) ou todos os médicos registrados. Os códigos CIUO (ISCO)-08 incluídos aqui são 221,2211,2212.
+
+A estrutura da OMS para classificar os profissionais de saúde baseia-se nas últimas revisões das classificações internacionais, incluindo a Classificação Internacional Uniforme das Ocupações (revisão de 2008), a Classificação Internacional Normalizada de Educação (revisão de 2011) e a Classificação Internacional Normalizada Industrial de Todas as Atividades Econômicas (revisão 4).
+
+**Fonte de dados: ** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Despesas em saúde como porcentagem do PIB**
+
+As despesas correntes em saúde, expressas como porcentagem do PIB, incluem bens e serviços de atenção em saúde consumidos durante cada ano. Esse indicador não inclui gastos de capital em saúde, como prédios, maquinário, tecnologia da informação e estoques de vacinas para emergências ou surtos. As despesas correntes em saúde são iguais à soma das despesas em saúde pública, privada e do próprio bolso
+
+
+**Fonte de dados: ** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+### Determinantes sociais e estilo de vida {.unnumbered}
+
+-   **Prevalência de sobrepeso em adultos**
+
+Porcentagem de pessoas com 18 anos de idade ou mais com um índice de massa corporal (IMC) de 25 kg/m² ou mais. Padronizado por idade.
+
+**Fonte de dados: ** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Prevalência de baixo peso ao nascer**
+
+Porcentagem de recém-nascidos com peso inferior a 2.500 gramas (menos de 5,51 libras) ao nascer.
+
+**Fonte de dados: ** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Porcentagem da população que usa pelo menos serviços básicos de saneamento**
+
+A porcentagem de pessoas que usam pelo menos serviços básicos de saneamento corresponde à porcentagem de pessoas que usam instalações de saneamento melhoradas que não são compartilhadas com outros domicílios. As instalações de saneamento melhoradas incluem sistemas de esgoto com descarga, fossas sépticas ou latrinas, latrinas ventiladas melhoradas, banheiros de compostagem ou latrinas de laje.
+
+**Fonte de dados: ** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Porcentagem da população em situação de pobreza que vive em um domicílio beneficiário de PTRC**
+
+Porcentagem da população com renda entre USD 3,1 e USD 5,0 per capita por dia (PPC de 2011) que vive em um domicílio beneficiário de algum Programa de Transferência de Renda Condicionada (PTRC).
+
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+
+-   **Porcentagem de beneficiários em situação de pobreza moderada
+
+Porcentagem de beneficiários do Programa de Transferência de Renda Condicionada (PTRC) com renda per capita do domicilio entre USD 3,1 e USD 5,0 (PPC de 2011).
+
+
+**Fonte de dados:** [*Pesquisas Domiciliares Harmonizadas do BID.*](#HHS-pt)
+
+### Servicios con calidad {.unnumbered}
+
+-   **Cobertura da vacina BCG em crianças de 1 ano de idade**
+
+A porcentagem de nascidos vivos que receberam uma dose da vacina Bacille Calmette-Guérin (BCG) em um determinado ano.
+
+
+**Fonte de dados: ** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+-   **Índice de cobertura universal de serviços de saúde**
+
+A cobertura dos serviços essenciais de saúde é definida como a cobertura média dos serviços essenciais com base em intervenções de rastreamento, incluindo saúde reprodutiva, materna, neonatal e infantil; doenças infecciosas; doenças não transmissíveis e capacidade e acesso a serviços, tanto na população geral quanto na mais desfavorecida. O indicador é um índice relatado em uma escala adimensional de 0 a 100, calculado como a média geométrica de 14 indicadores de rastreamento da cobertura dos serviços de saúde. Os indicadores de rastreamento são os seguintes, organizados por quatro componentes da cobertura de serviços: 1. Saúde reprodutiva, materna, neonatal e infantil; 2. Doenças infecciosas; 3. Doenças não transmissíveis; 4. Capacidade e acesso ao serviço. Refere-se ao Objetivo de Desenvolvimento Sustentável 3.8.1.
+
+
+**Fonte de dados: ** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+### Vidas saludable {.unnumbered}
+
+-   **Esperanza de vida al nacer**
+
+Indica o número médio de anos que um recém-nascido poderia esperar viver se vivesse exposto às taxas de mortalidade específicas por sexo e idade prevalecentes no momento do nascimento durante um ano específico em um determinado país, território ou área geográfica.
+
+**Fonte de dados:** [*Instituto de Métricas e Avaliação em Saúde (IHME na sigla em inglês).*](https://vizhub.healthdata.org/gbd-compare/#)
+
+-   **Taxa de mortalidade de menores de cinco anos por 1.000 nascidos vivos**
+
+A taxa de mortalidade infantil é a probabilidade de que uma criança nascida em cinco anos ou período específico faleça antes de completar cinco anos de idade, se estiver sujeita às taxas de mortalidade específicas por idade desse período. 
+
+**Fonte de dados: ** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO)
+
+### Proteção financeira {.unnumbered}
+
+-   **Gastos do próprio bolso como porcentagem do PIB**
+
+Os gastos do próprio bolso como porcentagem do PIB estimam o quanto os domicílios de cada país gastam diretamente com assistência médica. Estimam a proporção de gastos do próprio bolso em relação ao total do gasto atual em saúde. O gasto do próprio bolso em saúde é definido como qualquer despesa incorrida por um domicílio quando qualquer membro usa um bem ou serviço de saúde para receber qualquer tipo de atendimento (preventivo, curativo, de reabilitação, de longo prazo ou paliativo); fornecido por qualquer tipo de provedor; para qualquer tipo de doença, enfermidade ou condição de saúde; em qualquer tipo de ambiente (ambulatorial, hospitalar, domiciliar).
+
+**Fonte de dados:** [*Gasto em Saúde Global da Organização Mundial da Saúde, OMS.*](https://apps.who.int/nha/database/ViewData/Indicators/en)
+
+-   **População com gastos em saúde do domicílio acima de 10% das despesas ou renda total do domicílio**
+
+Porcentagem da população com gastos em saúde do domicílio acima de 10% do total das despesas ou renda do domicílio. Esse é o indicador 3.8.2 dos Objetivos de Desenvolvimento Sustentável (ODS)..
+
+**Fonte de dados:** [*Gasto em Saúde Global da Organização Mundial da Saúde, OMS.*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/population-with-household-expenditures-on-health-greater-than-10-of-total-household-expenditure-or-income-(sdg-3-8-2)-(-))

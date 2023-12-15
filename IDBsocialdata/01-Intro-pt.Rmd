@@ -1,0 +1,11 @@
+# (PART\*) Versão portuguesa {.unnumbered}
+
+# Introducción {#intro-pt .unnumber}
+
+Atualmente, os [**Dados e indicadores para a América Latina e o Caribe**](https://www.iadb.org/en/sharing-knowledge/data/social-data) possuem indicadores padronizados e comparáveis para 26 países da região (ALC) de 2006 até o presente. Esses indicadores podem ser acessados por meio da plataforma ou das bibliotecas disponíveis nas linguagens [***R***](https://github.com/EL-BID/idbsocialdataR), [***Python***](https://github.com/EL-BID/idbsocialdatapy) e [***Stata***](https://github.com/EL-BID/idbsocialdata).
+
+A maioria desses indicadores é gerada pelo Setor Social (SCL) da Vice-Presidência de Setores e Conhecimento do BID. A principal fonte para sua construção são as **Pesquisas Domiciliares e os Censos de População e Habitação Harmonizados do BID**. Esses indicadores estão agrupados em seis áreas de desenvolvimento social: Demografia e Migração; Habitação; Pobreza e Desigualdade; Educação; Emprego e Seguridade Social; e Saúde e Proteção Social. A característica distintiva da plataforma está na capacidade de visualizar os indicadores sociais em vários níveis, como gênero, diversidade, idade, área geográfica de residência, nível educacional e quintil de renda, entre outros.
+
+Embora os dados harmonizados sejam provenientes principalmente de pesquisas e censos nacionais gerados por cada um dos países, é fundamental salientar que esses indicadores não visam a substituir os dados oficiais de nenhum país em particular. Apesar dos esforços para garantir a qualidade e a comparabilidade dos dados entre os países, em alguns casos, os indicadores podem diferir das definições oficiais de um ou mais países. O processo utilizado para gerar cada indicador calculado com as pesquisas e os censos harmonizados está detalhado no [repositório Git](https://github.com/EL-BID/armonizacion_microdatos_encuestas_hogares_scl).
+
+As seções a seguir descrevem a metodologia para a construção dos indicadores visualizados no perfil de países, mostram os indicadores de uma perspectiva de gênero e diversidade que têm os censos populacionais como fonte principal e apresentam as fontes de dados harmonizadas.

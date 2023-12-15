@@ -1,0 +1,76 @@
+# Dados de uma perspectiva de gênero e diversidade {#gdi-pt}
+
+Na América Latina e no Caribe (ALC), as mulheres e diversos grupos populacionais, incluindo pessoas que se identificam como parte de povos indígenas, afrodescendentes, LGTBQ+ e pessoas com deficiência enfrentam lacunas e desafios persistentes. Há uma necessidade crescente de possuir dados e indicadores de qualidade sob a perspectiva de gênero e diversidade.
+
+Espera-se que esse painel (dashboard) gere acesso a dados e indicadores desagregados por gênero e para populações diversas sobre demografia, educação, emprego e habitação para apoiar a agenda de pesquisa, bem como a tomada de decisões e a formulação de políticas.
+
+A seguir é detalhada a fonte de dados utilizada, apresentada uma lista de indicadores disponíveis e descrita a metodologia de desagregação subnacional incorporada ao painel.
+
+## Fonte de dados
+
+Um dos principais desafios para medir as lacunas socioeconômicas que afetam os grupos de população diversa é que, como eles representam uma proporção muito pequena da população em alguns contextos, o tamanho da amostra das pesquisas nacionais não é suficiente para estimar indicadores desagregados.
+
+Por esse motivo, esse painel com perspectiva de gênero e diversidade descrito abaixo foi construído usando dados do último [*Censo de população e habitação harmonizado*](#HC-pt) disponível para cada país.
+
+
+## Indicadores
+
+### Dados demográficos {.unnumbered}
+
+-   **População por faixa etária**
+
+É calculada como a porcentagem da população em uma idade específica em relação à população total. Nesse contexto, a soma das porcentagens de todas as faixas etárias representadas na pirâmide populacional deve ser igual a 100%.
+
+As faixas etárias definidas para o cálculo desses indicadores são: 0 a 15 anos, 16 a 30 anos, 31 a 45 anos, 46 a 60 anos, 61 a 75 anos e 76 anos ou mais.
+
+
+-   **Grupos de população diversa:**
+
+**População indígena:** A porcentagem de população indígena é calculada como o número de pessoas que se autoidentificam como indígenas, de acordo com a classificação nacional, sobre a população total. *Por mais informações sobre como os dados de diversidade são obtidos consulte a* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
+
+ **População afrodescendente:** A porcentagem de população afrodescendente é calculada como o número de pessoas que se autoidentificam como afrodescendentes, de acordo com a classificação nacional, sobre a população total. *Por mais informações sobre como os dados de diversidade são obtidos consulte a* [*Recommendation on Diversity Data in the social Sector.*](https://publications.iadb.org/en/recommendations-diversity-data-social-sector)
+
+**População com deficiência:** A porcentagem de população com deficiência é calculada como o número de pessoas que informam ter pelo menos alguma dificuldade com atividades, de acordo com os domínios das perguntas do [*Washington Group*](https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Documents/Questions/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__June_2022_.pdf), sobre a população total.
+
+As perguntas do *Washington Group* são um dos métodos mais amplamente aceitos para medir a deficiência em pesquisas nacionais, pois se concentram em pessoas que têm dificuldade para realizar atividades diárias, como andar, enxergar ou lembrar. A conceitualização das perguntas usadas para identificar a população com deficiência baseia-se no modelo da[*World Health Organization's International Classification of Functioninf, Disability and Health (ICF).*](https://www.who.int/classifications/international-classification-of-functioning-disability-and-health).
+
+### Emprego {.unnumbered}
+
+-   **Taxa de participação geral**
+
+Porcentagem da população em idade de trabalhar que participa ativamente do mercado de trabalho. É o resultado da divisão do número total de pessoas economicamente ativas (PEA) pelo número de pessoas em idade de trabalhar (PT). A PEA é entendida como a população que está ocupada ou desocupada. A PT é estabelecida entre 16 e 64 anos de idade.
+
+-   **Taxa de desocupação**
+
+É o quociente entre o número total de pessoas desocupadas e a população economicamente ativa. Consideram-se desocupados (desempregado aberto) àqueles que não trabalharam por pelo menos uma hora no período de referência, mas estão disponíveis para trabalhar e fizeram esforços específicos para encontrar trabalho. A população economicamente ativa refere-se à soma da população ocupada e a desocupada.
+
+### Educação {.unnumbered}
+
+-   **Taxa de conclusão escolar**
+
+A porcentagem de pessoas que concluíram o ensino fundamental ou o ensino médio e têm idade entre 3 e 5 anos acima da idade teórica para ingressar no último ano desse nível (de acordo com o país) dividida pela população total dessa faixa etária.
+
+**No ensino fundamental:** porcentagem de crianças e jovens com idade entre 3 e 5 anos acima da idade teórica de conclusão do ensino fundamental (de acordo com o país), que concluíram o ensino fundamental. 
+
+**No ensino médio:** porcentagem de jovens com idade entre 3 e 5 anos acima da idade teórica de conclusão do ensino médio (de acordo com o país), que concluíram o ensino médio.
+
+### Hogares {.unnumbered}
+
+- **Água encanada:** o acesso é definido como os domicílios que informam que a principal fonte de água para consumo é a rede pública de distribuição.
+
+- **Acceso à Internet:** o domicílio informa ter acesso a uma conexão local com a Internet.
+
+- **Carro:** o domicílio informa que um de seus membros possui um carro.
+
+- **Telefone celular:* o acesso é definido como pelo menos uma pessoa no domicílio com serviço de telefone celular.
+
+
+## Desagregações subnacionais
+
+A desagregação subnacional usada nesse painel baseia-se nas unidades administrativas dos Censos de População e Habitação Harmonizados do [@IPUMS][^03-gyd-1]. Especificamente, a variável numérica de 6 dígitos Geolev1 é usada para realizar o agrupamento geográfico. Essa variável indica a unidade administrativa (estado, departamento, província, entre outros) na qual o domicílio foi registrado. Como as séries de microdados dos censos são harmonizadas em relação aos censos anteriores e algumas das unidades administrativas mudaram, é realizado um exercício de harmonização das unidades administrativas para torná-las comparáveis entre os censos. Na maioria dos casos, isso implica que algumas unidades administrativas, de acordo com o código IPUMS, agrupam mais de uma unidade administrativa de acordo com a atual divisão política dos países. Por exemplo, na Colômbia, Bogotá D.C. e Cundinamarca são atualmente unidades administrativas diferentes; no entanto, elas são agrupadas no IPUMS com o código 170011.
+
+É importante mencionar que as unidades administrativas são combinadas para criar uma única unidade nos seguintes casos: i) grandes unidades são divididas em anos posteriores; ii) unidades inteiras ou partes de unidades são combinadas de novas maneiras; ou iii) os limites entre as unidades mudam de um censo para outro. As unidades combinadas geralmente mantêm o código da unidade com a maior população na amostra do censo internacional IPUMS mais recente.
+
+
+[^03-gyd-1]: Disponível em: <https://international.ipums.org/international/resources/misc_docs/geolevel1.pdf>, atualizado em janeiro de 2022.
+

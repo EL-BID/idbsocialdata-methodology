@@ -1,16 +1,16 @@
-# Fuente de datos {#source}
+# Fonte de dados {#source-pt}
 
-En esta sección se describen la fuente de datos utilizadas para calcular los indicadores disponibles en la plataforma [**Datos e indicadores de América Latina y el Caribe**](https://www.iadb.org/en/sharing-knowledge/data/social-data) y en los paquetes de **IDBsocialdata** que están disponibles para ser utilizados en [**R**](https://github.com/EL-BID/idbsocialdataR), [**Python**](https://github.com/EL-BID/idbsocialdatapy) y [**Stata**](https://github.com/EL-BID/idbsocialdata).
+Esta seção descreve as fontes de dados usadas para calcular os indicadores disponíveis na plataforma [**Dados e indicadores para a América Latina e o Caribe**](https://www.iadb.org/en/sharing-knowledge/data/social-data) e nos pacotes IDBsocialdata que estão disponíveis para uso em linguagem  [**R**](https://github.com/EL-BID/idbsocialdataR), [**Python**](https://github.com/EL-BID/idbsocialdatapy) e [**Stata**](https://github.com/EL-BID/idbsocialdata).
 
-## Encuestas de Hogares Armonizadas del BID {#HHS}
+## Pesquisas domiciliares harmonizadas do BID {#HHS-pt}
 
-Las Encuestas de Hogares (EH) se utilizan como una fuente de referencia para observar y analizar las características demográficas, económicas y sociales de los países. Con el objetivo de proporcionar datos comparables a lo largo del tiempo y entre diferentes naciones, se lleva a cabo una estandarización de las bases de datos originales siguiendo un enfoque y estructura comunes, que incluyen nombres, definiciones y desagregaciones uniformes. Este proceso de armonización permite a los usuarios ahorrar tiempo en el procesamiento de datos y generar información analítica a nivel regional y subregional utilizando criterios uniformes. Además, facilita la realización de diagnósticos, la formulación de estrategias y la investigación de cuestiones sociales específicas en cada país de la región.
+As Pesquisas Domiciliares (PD) são usadas como fonte de referência para observar e analisar as características demográficas, econômicas e sociais dos países. No intuito de fornecer dados comparáveis ao longo do tempo e entre diferentes nações, a padronização dos bancos de dados originais é realizada seguindo uma abordagem e uma estrutura comuns, incluindo nomes, definições e desagregações uniformes. Esse processo de harmonização permite que os usuários economizem tempo no processamento de dados e gerem informações analíticas em nível regional e sub-regional usando critérios uniformes. Além disso, facilita a realização de diagnósticos, a formulação de estratégias e a pesquisa sobre questões sociais específicas em cada país da região.
 
-Para llevar a cabo la estandarización de las variables de acuerdo con las pautas establecidas, se pone a disposición el [**repositorio de armonización de encuestas**](https://github.com/EL-BID/armonizacion_microdatos_encuestas_hogares_scl) que contiene los scripts de Stata y la documentación necesaria para generar los datos.
+Para realizar a padronização das variáveis de acordo com as diretrizes estabelecidas, é disponibilizado o [**repositório de harmonização de pesquisas **](https://github.com/EL-BID/armonizacion_microdatos_encuestas_hogares_scl) que contém os scripts do Stata e a documentação necessária para gerar os dados.
 
-Es importante destacar que la principal fuente de los microdatos originales de las EH son los institutos de estadística (INE) de los países de la región. En casos particulares, el BID participa como coproductor de algunas de estas encuestas. A continuación, se enumeran las fuentes y las encuestas disponibles:
+É importante observar que a principal fonte dos microdados originais das PDs são os institutos de estatística (INEs) dos países da região. Em casos específicos, o BID participa como coprodutor de algumas dessas pesquisas. A seguir são listadas as fontes e as pesquisas disponíveis:
 
-| **País**  | **Fuente**                                                    | **Encuesta**                                                    | **Años disponibles**                  |
+| **País**  | **Fonte**                                                    | **Pesquisa**                                                    | **Anos disponíveis**                  |
 |-----------|---------------------------------------------------------------|-----------------------------------------------------------------|---------------------------------------|
 | **ARG**   | Instituto Nacional de Estadísticas y Censos (INDEC)           | Encuesta Permanente de Hogares - Continua (EPHC)                | 2003-2022                             |
 |           |                                                               | Encuesta Permanente de Hogares - Puntual (EPHP)                 | 1992-2002                             |
@@ -55,15 +55,15 @@ Es importante destacar que la principal fuente de los microdatos originales de l
 | **VEN**   | Instituto Nacional de Estadística (INE)                       | Encuesta de Hogares por Muestreo (EHM)                          | 1991-2013                             |
 |           | UCAB-USB-UCENTRAL, BID, World Bank                            | Encuesta Nacional de Condiciones de Vida (ENCOVI)               | 2014-2019, 2021                       |
 
-\*Las encuestas de México y Chile se realizan cada dos y tres años respectivamente.
+\*As pesquisas no México e no Chile são realizadas a cada dois e três anos, respectivamente.
 
-## Censos de Población y Vivienda Armonizados del BID {#HC}
+## Censos de População e Habitação Harmonizados do BID {#HC-pt}
 
-Los Censos de Población y Vivienda tienen como objetivo proporcionar información sobre la cantidad, estructura y distribución geográfica de la población en cada país. Al igual que en la colección de EH, se busca generar datos estandarizados y comparables entre países y a lo largo del tiempo a partir de la información compartida por el Integrated Public Use Microdata (IPUMS) de la Universidad de Minnesota. En casos en los que los censos no estén disponibles en IPUMS, se recurre a los INE de cada país como fuente de datos.
+Os Censos de População e Habitação têm como objetivo fornecer informações sobre o número, a estrutura e a distribuição geográfica da população em cada país. Assim como na coleção PD, o objetivo é gerar dados padronizados e comparáveis entre países e ao longo do tempo a partir das informações compartilhadas pelo Integrated Public Use Microdata (IPUMS) da Universidade de Minnesota. Nos casos em que os censos não estão disponíveis no IPUMS, os INEs de cada país são usados como fonte de dados.
 
-A partir de la información obtenida en [@IPUMS], se lleva a cabo una estandarización siguiendo las directrices establecidas por el BID. Los scripts en Stata y documentos de armonización de variables están disponibles en el [**repositorio de armonización de censos**](). A continuación, se describe la fuente y los datos disponibles:
+Com base nas informações obtidas no  [@IPUMS], é realizada uma padronização seguindo as diretrizes estabelecidas pelo BID. Os Scripts em Stata e os documentos de harmonização de variáveis estão disponíveis no [*repositório de harmonização do censo*](). A seguir são descritas as fonte e os dados disponíveis:
 
-| **País** | **Fuente**                                                   | **Año disponible**                 |
+| **País** | **Fonte**                                                   | **Anos disponíveis**                 |
 |----------|--------------------------------------------------------------|------------------------------------|
 | **ARG**  | IPUMS, Minnesota Population Center                           | 1970, 1980, 1991, 2001, 2010       |
 | **BHS**  |                                                              | No disponible                      |
@@ -96,3 +96,4 @@ A partir de la información obtenida en [@IPUMS], se lleva a cabo una estandariz
 | **TTO**  | IPUMS, Minnesota Population Center                           | 1970,1980, 1990, 2000, 2011        |
 | **URY**  | IPUMS, Minnesota Population Center                           | 1963, 1975, 1985, 1996, 2006, 2011 |
 | **VEN**  | IPUMS, Minnesota Population Center                           | 1971, 1981, 1990, 2001             |
+

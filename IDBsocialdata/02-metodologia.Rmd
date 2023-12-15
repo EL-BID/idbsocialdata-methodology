@@ -1,4 +1,4 @@
-# Metodología de indicadores {#indicadores}
+# Metodología {#indicadores}
 
 A continuación, se describe la metodología utilizada para estimar los indicadores.
 
@@ -100,15 +100,15 @@ Se calcula determinando el porcentaje de hogares que informan tener acceso al se
 
 ### Población por niveles de ingreso {.unnumbered}
 
--   **Pobreza extrema (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona por debajo de la línea de pobreza internacional de \$3.1 dólares por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
+-   **Pobreza extrema (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona por debajo de la línea de pobreza internacional de 3.1 USD por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
 
--   **Pobreza moderada (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona entre \$3.1 y \$5.0 dólares por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
+-   **Pobreza moderada (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona entre 3.1 y 5.0 USD por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
 
--   **Vulnerable (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona entre \$5.0 y \$12.4 dólares por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
+-   **Vulnerable (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona entre 5.0 y 12.4 USD por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
 
--   **Clase media (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona entre \$12.4 y \$62.0 dólares por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
+-   **Clase media (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona entre 12.4 y 62.0 USD por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
 
--   **Ingresos altos (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona mayores a \$62.0 dólares por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
+-   **Ingresos altos (PPA 2011):** Porcentaje de población viviendo en hogares con el ingreso por persona mayores a 62.0 USD por persona al día ajustados a la Paridad de Poder Adquisitivo (PPA) de 2011.
 
 -   **Población por nivel de ingreso (número de personas):** Se calcula por la multiplicación de la tasa del nivel de ingreso, mencionados anteriormente, por el total de la población.
 
@@ -192,13 +192,13 @@ De la población con 25 o más años, porcentaje de personas con: 0 años de edu
 
 -   **Tasa global de participación**
 
-Porcentaje de la población en edad de trabajar que participa activamente en el mercado de trabajo. Resulta de dividir el total de personas económicamente activas (PEA) entre el número de personas en edad de trabajar (PT). Se entiende como PEA a aquella población que se encuentran ocupada o desocupada. La PT se establece entre 16 y 64 años.
+Porcentaje de la población en edad de trabajar que participa activamente en el mercado de trabajo. Resulta de dividir el total de personas económicamente activas (PEA) entre el número de personas en edad de trabajar (PT). Se entiende como PEA a aquella población que se encuentran ocupada o desocupada. La PT se establece entre 15 y 64 años.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
 -   **Tasa de ocupación**
 
-Porcentaje que resulta del cociente entre el total personas ocupadas (O) y la población en edad de trabajar (PT). Se entiende como ocupado bajo esta definición a aquellas personas que han trabajado al menos una hora en el periodo de referencia (generalmente la última semana o el último mes si la encuesta pregunta por la semana), o que teniendo empleo no han trabajado por razones extraordinarias (licencia por enfermedad, huelga, vacaciones, etc.).
+Porcentaje que resulta del cociente entre el total personas ocupadas y la población en edad de trabajar. Se entiende como ocupado bajo esta definición a aquellas personas que han trabajado al menos una hora en el periodo de referencia (generalmente la última semana o el último mes si la encuesta pregunta por la semana), o que teniendo empleo no han trabajado por razones extraordinarias (licencia por enfermedad, huelga, vacaciones, etc.).
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
@@ -214,7 +214,7 @@ Porcentaje que resulta de dividir el número de trabajadores subocupados y el n�
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
-### Empleo y seguridad social {.unnumbered}
+### Seguridad social {.unnumbered}
 
 -   **Formalidad**
 
@@ -234,17 +234,17 @@ Porcentaje que resulta de dividir el número de trabajadores por cuenta propia y
 
 -   **Camas hospitalarias por cada 10.000 habitantes**
 
-Número de camas hospitalarias disponibles por cada 10.000 habitantes de una población.
+Número de camas hospitalarias disponibles por cada 10.000 habitantes.
 
-**Fuente de datos:** [*Observatorio Mundial de la Salud - OMS*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/hospital-beds-(per-10-000-population))
+**Fuente de datos:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/hospital-beds-(per-10-000-population))
 
--   **Médico por cada 10.000 habitantes**
+-   **Médicos por cada 10.000 habitantes**
 
 Incluye a los generalistas, a los médicos especialistas y a los médicos no definidos con mayor detalle, en el ámbito nacional y/o subnacional de que se trate. Dependiendo de la naturaleza de la fuente de datos original, puede incluir solo médicos en ejercicio (activos) o todos los médicos registrados. Los códigos CIUO -08 incluidos aquí son 221,2211,2212.
 
 El marco de la OMS para clasificar a los trabajadores de la salud se basa en las últimas revisiones de las clasificaciones internacionales, incluida la Clasificación Internacional Uniforme de Ocupaciones (revisión de 2008), la Clasificación Internacional Uniforme de la Educación (revisión de 2011) y la Clasificación Industrial Internacional Uniforme de Todas las Actividades Económicas (revisión 4).
 
-**Fuente de datos:** [*Observatorio Mundial de la Salud - OMS*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(per-10-000-population))
+**Fuente de datos:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/medical-doctors-(per-10-000-population))
 
 -   **Gastos en salud como porcentaje del PIB**
 
@@ -258,29 +258,29 @@ El gasto corriente en salud expresado como porcentaje del PIB incluye bienes y s
 
 Porcentaje de personas de 18 años o más con un índice de masa corporal (IMC) de 25 kg/m² o más. Estandarizado por edad.
 
-**Fuente de datos:** [*Observatorio Mundial de la Salud - OMS.*](https://who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-overweight-among-adults-bmi-=-25-(age-standardized-estimate)-(-))
+**Fuente de datos:** [*The Global Health Observatory*](https://who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-overweight-among-adults-bmi-=-25-(age-standardized-estimate)-(-))
 
 -   **Prevalencia de bajo peso al nacer**
 
 El porcentaje de recién nacidos que pesan menos de 2 500 g (menos de 5,51 libras) al nacer.
 
-**Fuente de datos:** [*Observatorio Mundial de la Salud - OMS*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/low-birth-weight-prevalence-(-))
+**Fuente de datos:** [The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/low-birth-weight-prevalence-(-))
 
 -   **Porcentaje de población que utiliza al menos servicios básicos de saneamiento**
 
 El porcentaje de personas que utilizan al menos servicios básicos de saneamiento corresponde al porcentaje de personas que utilizan instalaciones de saneamiento mejoradas que no se comparten con otros hogares. Las instalaciones de saneamiento mejoradas incluyen sistemas de alcantarillado con descarga, tanques sépticos o letrinas, letrinas mejoradas ventiladas, baños de compostaje o letrinas con losa.
 
-**Fuente de datos:** [*Observatorio Mundial de la Salud - OMS*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/population-using-at-least-basic-sanitation-services-(-))
+**Fuente de datos:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/population-using-at-least-basic-sanitation-services-(-))
 
 -   **Porcentaje de la población en pobreza que vive en un hogar beneficiario de PTMC**
 
-Porcentaje de la población con ingresos entre \$3.1 y \$5.0 USD per cápita por día (2011 PPA) que vive en un hogar beneficiario de algún Programa de Transferencias Monetarias Condicionadas (PTMC).
+Porcentaje de la población con ingresos entre $3.1 y \$5.0 USD per cápita por día (2011 PPA) que vive en un hogar beneficiario de algún Programa de Transferencias Monetarias Condicionadas (PTMC). Estos programas complementan los ingresos con una transferencia monetaria a cambio del cumplimento de corresponsabilidad para desarrollo del capital humano, sobre todo en salud y educación y por lo general están enfocados en hogares pobres con niños, algunos incluyen otros grupos, como adultos mayores o desplazados.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
 -   **Porcentaje de beneficiarios en pobreza moderada**
 
-Porcentaje de beneficiarios de Programa de Transferencias Monetarias Condicionadas (PTMC) con ingresos per cápita del hogar entre \$3.1 y \$5.0 USD (2011 PPA).
+Porcentaje de beneficiarios de Programa de Transferencias Monetarias Condicionadas (PTMC) con ingresos per cápita del hogar entre $3.1 y \$5.0 USD (2011 PPA). Estos programas complementan los ingresos con una transferencia monetaria a cambio del cumplimento de corresponsabilidad para desarrollo del capital humano, sobre todo en salud y educación y por lo general están enfocados en hogares pobres con niños, algunos incluyen otros grupos, como adultos mayores o desplazados.
 
 **Fuente de datos:** [*Encuestas Armonizadas de Hogares del BID*](#HHS)
 
@@ -290,13 +290,13 @@ Porcentaje de beneficiarios de Programa de Transferencias Monetarias Condicionad
 
 El porcentaje de nacidos vivos que han recibido una dosis de la vacuna Bacilo de Calmette-Guérin (BCG) en un año determinado.
 
-**Fuente de datos:** [*Observatorio Mundial de la Salud - OMS*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/bcg-immunization-coverage-among-1-year-olds-(-))
+**Fuente de datos:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/bcg-immunization-coverage-among-1-year-olds-(-))
 
 -   **Índice de cobertura universal de servicios de salud**
 
 Cobertura de los servicios esenciales de salud (definida como la cobertura media de los servicios esenciales basada en intervenciones de rastreo que incluyen la salud reproductiva, materna, neonatal e infantil, las enfermedades infecciosas, las enfermedades no transmisibles y la capacidad y el acceso a los servicios, entre la población general y la más desfavorecida). El indicador es un índice reportado en una escala sin unidades de 0 a 100, que se calcula como la media geométrica de 14 indicadores trazadores de la cobertura de los servicios de salud. Los indicadores trazadores son los siguientes, organizados por cuatro componentes de la cobertura de servicios: 1. Salud reproductiva, materna, neonatal e infantil 2. Enfermedades infecciosas 3. Enfermedades no transmisibles 4. Capacidad y acceso al servicio. Hace referencia al Objetivo de Desarrollo Sostenible 3.8.1.
 
-**Fuente de datos:** [*Observatorio Mundial de la Salud - OMS*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/uhc-index-of-service-coverage)
+**Fuente de datos:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/uhc-index-of-service-coverage)
 
 ### Vidas saludable {.unnumbered}
 
@@ -308,9 +308,9 @@ El número promedio de años que un recién nacido podría esperar vivir, si pas
 
 -   **Tasa de mortalidad para menores de 5 años por 1.000 nacidos vivos**
 
-La tasa de mortalidad infantil es la probabilidad de que un niño nacido en un año o período específico muera antes de cumplir un año, si está sujeto a las tasas de mortalidad específicas por edad de ese período. En sentido estricto, la tasa de mortalidad infantil no es una tasa (es decir, el número de muertes dividido por el número de personas en riesgo durante un determinado período de tiempo), sino una probabilidad de muerte derivada de una tabla de vida y expresada como tasa por cada 1000 nacidos vivos.
+La tasa de mortalidad infantil es la probabilidad de que un niño nacido en un año o período específico muera antes de cumplir cinco años, si está sujeto a las tasas de mortalidad específicas por edad de ese período. En sentido estricto, la tasa de mortalidad infantil no es una tasa (es decir, el número de muertes dividido por el número de personas en riesgo durante un determinado período de tiempo), sino una probabilidad de muerte derivada de una tabla de vida y expresada como tasa por cada 1000 nacidos vivos.
 
-**Fuente de datos:** [*Observatorio Mundial de la Salud - OMS*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/under-five-mortality-rate-(probability-of-dying-by-age-5-per-1000-live-births))
+**Fuente de datos:** [*The Global Health Observatory*](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/under-five-mortality-rate-(probability-of-dying-by-age-5-per-1000-live-births))
 
 ### Protección financiera {.unnumbered}
 
