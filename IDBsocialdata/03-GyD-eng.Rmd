@@ -58,15 +58,15 @@ The percentage of people who have completed primary or secondary education and a
 
 ### Housing {.unnumbered}
 
-*Electricity:* Access is identified when households report that the primary lighting source is public or private.
+**Electricity:** Access is identified when households report that the primary lighting source is public or private.
 
-*Aqueduct water:* Access is defined as households reporting that the primary water source for consumption is the public distribution network.
+**Aqueduct water:** Access is defined as households reporting that the primary water source for consumption is the public distribution network.
 
-*Internet:* The household reports having access to a local internet connection.
+**Internet:** The household reports having access to a local internet connection.
 
-*Car:* The household reports that at least one of its members owns a car.
+**Car:** The household reports that at least one of its members owns a car.
 
-*Cell Phone:* Access is defined as at least one person in the household having cell phone service.
+**Cell Phone:** Access is defined as at least one person in the household having cell phone service.
 
 ## Subnational disaggregation
 

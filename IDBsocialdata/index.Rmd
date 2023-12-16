@@ -1,5 +1,5 @@
 ---
-title: "Data and Indicators for Latin America and the Caribbean (LAC): Methodology Handbook"
+title: "Data and Indicators for Latin America and the Caribbean: Methodology Handbook"
 github-repo: https://github.com/EL-BID/scl-doc
 output: html_document
 link-citations: yes

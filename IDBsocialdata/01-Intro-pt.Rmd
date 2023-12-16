@@ -1,6 +1,6 @@
 # (PART\*) Versão portuguesa {.unnumbered}
 
-# Introducción {#intro-pt .unnumber}
+# Introdução {#intro-pt .unnumber}
 
 Atualmente, os [**Dados e indicadores para a América Latina e o Caribe**](https://www.iadb.org/en/sharing-knowledge/data/social-data) possuem indicadores padronizados e comparáveis para 26 países da região (ALC) de 2006 até o presente. Esses indicadores podem ser acessados por meio da plataforma ou das bibliotecas disponíveis nas linguagens [***R***](https://github.com/EL-BID/idbsocialdataR), [***Python***](https://github.com/EL-BID/idbsocialdatapy) e [***Stata***](https://github.com/EL-BID/idbsocialdata).
 
