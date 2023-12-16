@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>5 Introducción | Data and Indicators for Latin America and the Caribbean (LAC): Methodology Handbook</title>
+  <title>11 Dados de uma perspectiva de gênero e diversidade | Data and Indicators for Latin America and the Caribbean (LAC): Methodology Handbook</title>
   <meta name="description" content="This report outlines the methodology of the social indicators." />
   <meta name="generator" content="bookdown 0.36 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="5 Introducción | Data and Indicators for Latin America and the Caribbean (LAC): Methodology Handbook" />
+  <meta property="og:title" content="11 Dados de uma perspectiva de gênero e diversidade | Data and Indicators for Latin America and the Caribbean (LAC): Methodology Handbook" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This report outlines the methodology of the social indicators." />
   <meta name="github-repo" content="https://github.com/EL-BID/scl-doc" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="5 Introducción | Data and Indicators for Latin America and the Caribbean (LAC): Methodology Handbook" />
+  <meta name="twitter:title" content="11 Dados de uma perspectiva de gênero e diversidade | Data and Indicators for Latin America and the Caribbean (LAC): Methodology Handbook" />
   
   <meta name="twitter:description" content="This report outlines the methodology of the social indicators." />
   
@@ -28,8 +28,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="source-eng.html"/>
-<link rel="next" href="indicadores.html"/>
+<link rel="prev" href="indicadores-pt.html"/>
+<link rel="next" href="source-pt.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -300,21 +300,89 @@ div.csl-indent {
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="intro-esp" class="section level1 unnumber hasAnchor" number="5">
-<h1><span class="header-section-number">5</span> Introducción<a href="intro-esp.html#intro-esp" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Actualmente, en <a href="https://www.iadb.org/en/sharing-knowledge/data/social-data"><strong>Datos e Indicadores de América Latina y el Caribe</strong></a>, se cuenta con indicadores estandarizados y comparables para 26 países de la región (ALC) desde 2006 hasta la actualidad. El acceso a estos indicadores puede realizarse a través de la plataforma o mediante las librerías disponibles en los lenguajes de <a href="https://github.com/EL-BID/idbsocialdataR"><strong><em>R</em></strong></a>, <a href="https://github.com/EL-BID/idbsocialdatapy"><strong><em>Python</em></strong></a> y <a href="https://github.com/EL-BID/idbsocialdata"><strong><em>Stata</em></strong></a>.</p>
-<p>La mayoría de estos indicadores son generados por el Sector Social (SCL) de la Vicepresidencia de Sectores y Conocimiento del BID. La fuente principal para su construcción son las <strong>Encuestas de Hogares y los Censos de Población y Vivienda Armonizados del BID</strong>. Estos indicadores se agrupan en seis áreas de desarrollo social: Demografía y Migración, Vivienda, Pobreza y Desigualdad, Educación, Empleo y Seguridad Social, así como Salud y Protección Social. Lo distintivo de la plataforma radica en la capacidad de visualizar los indicadores sociales en diversos niveles, como género, diversidad, edad, área geográfica de residencia, nivel educativo, quintil de ingreso, entre otros.</p>
-<p>Aunque los datos armonizados tienen como fuente principal las encuestas y censos nacionales que generan cada uno de los países, es crucial destacar que estos indicadores no buscan reemplazar ni sustituir a los datos oficiales de ningún país en particular. A pesar de los esfuerzos por garantizar la calidad y comparabilidad de los datos entre países, en algunos casos, los indicadores podrían diferir de las definiciones oficiales de uno o más países. El proceso utilizado para generar cada indicador calculado con las encuestas y censos armonizados se detalla en el <a href="https://github.com/EL-BID/armonizacion_microdatos_encuestas_hogares_scl">repositorio de Git</a>.</p>
-<p>Las siguientes secciones describen la metodología de construcción de los indicadores visualizados en el perfil de países, los indicadores desde perspectiva de género y diversidad que tienen como fuente principal los censos de población, y se presentan las fuente de los datos armonizados.</p>
+<div id="gdi-pt" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">11</span> Dados de uma perspectiva de gênero e diversidade<a href="gdi-pt.html#gdi-pt" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Na América Latina e no Caribe (ALC), as mulheres e diversos grupos populacionais, incluindo pessoas que se identificam como parte de povos indígenas, afrodescendentes, LGTBQ+ e pessoas com deficiência enfrentam lacunas e desafios persistentes. Há uma necessidade crescente de possuir dados e indicadores de qualidade sob a perspectiva de gênero e diversidade.</p>
+<p>Espera-se que esse painel (dashboard) gere acesso a dados e indicadores desagregados por gênero e para populações diversas sobre demografia, educação, emprego e habitação para apoiar a agenda de pesquisa, bem como a tomada de decisões e a formulação de políticas.</p>
+<p>A seguir é detalhada a fonte de dados utilizada, apresentada uma lista de indicadores disponíveis e descrita a metodologia de desagregação subnacional incorporada ao painel.</p>
+<div id="fonte-de-dados" class="section level2 hasAnchor" number="11.1">
+<h2><span class="header-section-number">11.1</span> Fonte de dados<a href="gdi-pt.html#fonte-de-dados" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Um dos principais desafios para medir as lacunas socioeconômicas que afetam os grupos de população diversa é que, como eles representam uma proporção muito pequena da população em alguns contextos, o tamanho da amostra das pesquisas nacionais não é suficiente para estimar indicadores desagregados.</p>
+<p>Por esse motivo, esse painel com perspectiva de gênero e diversidade descrito abaixo foi construído usando dados do último <a href="source-pt.html#HC-pt"><em>Censo de população e habitação harmonizado</em></a> disponível para cada país.</p>
+</div>
+<div id="indicadores-2" class="section level2 hasAnchor" number="11.2">
+<h2><span class="header-section-number">11.2</span> Indicadores<a href="gdi-pt.html#indicadores-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="dados-demográficos" class="section level3 unnumbered hasAnchor">
+<h3>Dados demográficos<a href="gdi-pt.html#dados-demográficos" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>População por faixa etária</strong></li>
+</ul>
+<p>É calculada como a porcentagem da população em uma idade específica em relação à população total. Nesse contexto, a soma das porcentagens de todas as faixas etárias representadas na pirâmide populacional deve ser igual a 100%.</p>
+<p>As faixas etárias definidas para o cálculo desses indicadores são: 0 a 15 anos, 16 a 30 anos, 31 a 45 anos, 46 a 60 anos, 61 a 75 anos e 76 anos ou mais.</p>
+<ul>
+<li><strong>Grupos de população diversa:</strong></li>
+</ul>
+<p><strong>População indígena:</strong> A porcentagem de população indígena é calculada como o número de pessoas que se autoidentificam como indígenas, de acordo com a classificação nacional, sobre a população total. <em>Por mais informações sobre como os dados de diversidade são obtidos consulte a</em> <a href="https://publications.iadb.org/en/recommendations-diversity-data-social-sector"><em>Recommendation on Diversity Data in the social Sector.</em></a></p>
+<p><strong>População afrodescendente:</strong> A porcentagem de população afrodescendente é calculada como o número de pessoas que se autoidentificam como afrodescendentes, de acordo com a classificação nacional, sobre a população total. <em>Por mais informações sobre como os dados de diversidade são obtidos consulte a</em> <a href="https://publications.iadb.org/en/recommendations-diversity-data-social-sector"><em>Recommendation on Diversity Data in the social Sector.</em></a></p>
+<p><strong>População com deficiência:</strong> A porcentagem de população com deficiência é calculada como o número de pessoas que informam ter pelo menos alguma dificuldade com atividades, de acordo com os domínios das perguntas do <a href="https://www.washingtongroup-disability.com/fileadmin/uploads/wg/Documents/Questions/Washington_Group_Questionnaire__1_-_WG_Short_Set_on_Functioning__June_2022_.pdf"><em>Washington Group</em></a>, sobre a população total.</p>
+<p>As perguntas do <em>Washington Group</em> são um dos métodos mais amplamente aceitos para medir a deficiência em pesquisas nacionais, pois se concentram em pessoas que têm dificuldade para realizar atividades diárias, como andar, enxergar ou lembrar. A conceitualização das perguntas usadas para identificar a população com deficiência baseia-se no modelo da<a href="https://www.who.int/classifications/international-classification-of-functioning-disability-and-health"><em>World Health Organization’s International Classification of Functioninf, Disability and Health (ICF).</em></a>.</p>
+</div>
+<div id="emprego" class="section level3 unnumbered hasAnchor">
+<h3>Emprego<a href="gdi-pt.html#emprego" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Taxa de participação geral</strong></li>
+</ul>
+<p>Porcentagem da população em idade de trabalhar que participa ativamente do mercado de trabalho. É o resultado da divisão do número total de pessoas economicamente ativas (PEA) pelo número de pessoas em idade de trabalhar (PT). A PEA é entendida como a população que está ocupada ou desocupada. A PT é estabelecida entre 16 e 64 anos de idade.</p>
+<ul>
+<li><strong>Taxa de desocupação</strong></li>
+</ul>
+<p>É o quociente entre o número total de pessoas desocupadas e a população economicamente ativa. Consideram-se desocupados (desempregado aberto) àqueles que não trabalharam por pelo menos uma hora no período de referência, mas estão disponíveis para trabalhar e fizeram esforços específicos para encontrar trabalho. A população economicamente ativa refere-se à soma da população ocupada e a desocupada.</p>
+</div>
+<div id="educação" class="section level3 unnumbered hasAnchor">
+<h3>Educação<a href="gdi-pt.html#educação" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Taxa de conclusão escolar</strong></li>
+</ul>
+<p>A porcentagem de pessoas que concluíram o ensino fundamental ou o ensino médio e têm idade entre 3 e 5 anos acima da idade teórica para ingressar no último ano desse nível (de acordo com o país) dividida pela população total dessa faixa etária.</p>
+<p><strong>No ensino fundamental:</strong> porcentagem de crianças e jovens com idade entre 3 e 5 anos acima da idade teórica de conclusão do ensino fundamental (de acordo com o país), que concluíram o ensino fundamental.</p>
+<p><strong>No ensino médio:</strong> porcentagem de jovens com idade entre 3 e 5 anos acima da idade teórica de conclusão do ensino médio (de acordo com o país), que concluíram o ensino médio.</p>
+</div>
+<div id="hogares-1" class="section level3 unnumbered hasAnchor">
+<h3>Hogares<a href="gdi-pt.html#hogares-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><p><strong>Água encanada:</strong> o acesso é definido como os domicílios que informam que a principal fonte de água para consumo é a rede pública de distribuição.</p></li>
+<li><p><strong>Acceso à Internet:</strong> o domicílio informa ter acesso a uma conexão local com a Internet.</p></li>
+<li><p><strong>Carro:</strong> o domicílio informa que um de seus membros possui um carro.</p></li>
+<li><p>**Telefone celular:* o acesso é definido como pelo menos uma pessoa no domicílio com serviço de telefone celular.</p></li>
+</ul>
+</div>
+</div>
+<div id="desagregações-subnacionais" class="section level2 hasAnchor" number="11.3">
+<h2><span class="header-section-number">11.3</span> Desagregações subnacionais<a href="gdi-pt.html#desagregações-subnacionais" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A desagregação subnacional usada nesse painel baseia-se nas unidades administrativas dos Censos de População e Habitação Harmonizados do [<span class="citation">IPUMS (<a href="#ref-IPUMS" role="doc-biblioref">2020</a>)</span>]<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>. Especificamente, a variável numérica de 6 dígitos Geolev1 é usada para realizar o agrupamento geográfico. Essa variável indica a unidade administrativa (estado, departamento, província, entre outros) na qual o domicílio foi registrado. Como as séries de microdados dos censos são harmonizadas em relação aos censos anteriores e algumas das unidades administrativas mudaram, é realizado um exercício de harmonização das unidades administrativas para torná-las comparáveis entre os censos. Na maioria dos casos, isso implica que algumas unidades administrativas, de acordo com o código IPUMS, agrupam mais de uma unidade administrativa de acordo com a atual divisão política dos países. Por exemplo, na Colômbia, Bogotá D.C. e Cundinamarca são atualmente unidades administrativas diferentes; no entanto, elas são agrupadas no IPUMS com o código 170011.</p>
+<p>É importante mencionar que as unidades administrativas são combinadas para criar uma única unidade nos seguintes casos: i) grandes unidades são divididas em anos posteriores; ii) unidades inteiras ou partes de unidades são combinadas de novas maneiras; ou iii) os limites entre as unidades mudam de um censo para outro. As unidades combinadas geralmente mantêm o código da unidade com a maior população na amostra do censo internacional IPUMS mais recente.</p>
 
+</div>
+</div>
+<h3> References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-IPUMS" class="csl-entry">
+IPUMS, Minnesota Population Center. 2020. <em>Integrated Public Use Microdata Series, International: Version 7.3 LAC Census.</em> 2nd ed. Minneapolis, MN: IPUMS. <a href="https://international.ipums.org/international/index.shtml">https://international.ipums.org/international/index.shtml</a>.
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="4">
+<li id="fn4"><p>Disponível em: <a href="https://international.ipums.org/international/resources/misc_docs/geolevel1.pdf" class="uri">https://international.ipums.org/international/resources/misc_docs/geolevel1.pdf</a>, atualizado em janeiro de 2022.<a href="gdi-pt.html#fnref4" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="source-eng.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="indicadores.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="indicadores-pt.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="source-pt.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
