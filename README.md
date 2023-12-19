@@ -1,7 +1,7 @@
 
 [![IDB Logo](https://scldata.iadb.org/assets/iadb-7779368a000004449beca0d4fc6f116cc0617572d549edf2ae491e9a17f63778.png)](https://scldata.iadb.org)
 
-# Data and Indicators for Latin America and the Caribbean: Methodology Handbookhttps://github.com/EL-BID/idbsocialdata-methodology/blob/main/README.md
+# Data and Indicators for Latin America and the Caribbean: Methodology Handbook
 **Interamerican Development Bank – IDB**
 
 ## Overview
