@@ -50,8 +50,9 @@ bookdown::render_book("index.Rmd", "bookdown::gitbook")
 
 **6.	Publish the site** 
 
-To update the live website, you must first commit and merge the changes from the local version into the main branch.
-Additional information
+To update the live website, you must commit and merge the changes from the local version into the main branch. 
+
+## Additional information
 
 To learn more about the bookdown package and process, see https://bookdown.org/yihui/bookdown/why-read-this-book.html. 
 
