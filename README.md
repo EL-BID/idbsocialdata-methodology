@@ -40,6 +40,7 @@ There are 14 markdown documents, but they're just six main topics; the other doc
 - *_output.yml:* This file defines the site's style and sharing conditions. Bookdown allows different styles, such as the ***gitbook style***, to be implemented.
 
 **5.	Render** 
+
 To render the site and create the HTML files, you must run the following code, which depends on the style: 
 
 ```
@@ -48,7 +49,7 @@ bookdown::render_book("index.Rmd", "bookdown::gitbook")
 - After running this command, the HTML files are updated in the [IDBsocialdata/docs](https://github.com/EL-BID/idbsocialdata-methodology/tree/399e2df6e4e946ee1a68de2c5451643f881990db/IDBsocialdata/docs) folder, and always ensure that the file ***.nojekyll*** is in the folder.
 - Into the main folder, copy and replace the [docs](https://github.com/EL-BID/idbsocialdata-methodology/tree/399e2df6e4e946ee1a68de2c5451643f881990db/docs) folder.
 
-**6.	Publish the site** 
+**6.	Publish** 
 
 To update the live website, you must commit and merge the changes from the local version into the main branch. 
 
