@@ -62,8 +62,8 @@ Allaire, JJ, J. Horner, and Y. Xie et al. 2019. Markdown: Render Markdown with t
 
 Xie, Y. 2016. Bookdown: Authoring Books and Technical Documents with R Markdown. Boca Raton, Florida: Chapman; Hall/CRC. https://github.com/rstudio/bookdown.
 
-## Limitation of responsibilities
 ---
+## Limitation of responsibilities
 The IDB is not responsible, under any circumstance, for damage or compensation, moral or patrimonial; direct or indirect; accessory or special; or by way of consequence, foreseen or unforeseen, that could arise:
 
 I. Under any concept of intellectual property, negligence, or detriment of another part of theory, I
