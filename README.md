@@ -26,13 +26,13 @@ The only requirement is that it must be installed in the Bookdown R package.
 
 There are 14 markdown documents, but they're just six main topics; the other documents are the translations in English (-eng) and Portuguese (-pt):
 
-- *Index:* It is the home page.
--	*01-Intro:* The section below provides an overview of the data and indicators found throughout the site.
-- *02-Methodology:* Explain how each indicator is constructed. 
-- *03-GyD:* Explain what can be found in the Gender and Diversity dashboard.
-- *04-Source:* Explain the indicators' primary data sources. 
-- *05-Track:* Displays the latest updates to the Social Sector dashboard and indicators, including the date and brief explanation of changes. 
-- *07-references:* Provide the code to print book references from *book.bib*.
+- ***Index:*** It is the home page.
+-	***01-Intro:*** The section below provides an overview of the data and indicators found throughout the site.
+- ***02-Methodology:*** Explain how each indicator is constructed. 
+- ***03-GyD:*** Explain what can be found in the Gender and Diversity dashboard.
+- ***04-Source:*** Explain the indicators' primary data sources. 
+- ***05-Track:*** Displays the latest updates to the Social Sector dashboard and indicators, including the date and brief explanation of changes. 
+- ***07-references:*** Provide the code to print book references from ***book.bib***.
 
 **4.	File to building the site**
 
