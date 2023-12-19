@@ -20,14 +20,14 @@ The only requirement is that it must be installed in the Bookdown R package.
 
 ## Building and previewing this site: Steps
 **1.	Create the R project with bookdown:** 
->IDBSocialdata
+>[IDBSocialdata](https://github.com/EL-BID/idbsocialdata-methodology/tree/399e2df6e4e946ee1a68de2c5451643f881990db/IDBsocialdata)
 
 **2.	Create a Rmarkdown document to generate the site content:**
 
 There are 14 markdown documents, but they're just six main topics; the other documents are the translations in English (-eng) and Portuguese (-pt):
 
 - *Index:* It is the home page.
--	*01-Intro:* Below is an overview of the data and indicators available in the following sections.
+-	*01-Intro:* The section below provides an overview of the data and indicators found throughout the site.
 - *02-Methodology:* Explain how each indicator is constructed. 
 - *03-GyD:* Explain what can be found in the Gender and Diversity dashboard.
 - *04-Source:* Explain the indicators' primary data sources. 
@@ -37,7 +37,7 @@ There are 14 markdown documents, but they're just six main topics; the other doc
 **4.	File to building the site**
 
 - *_bookdown.yml:* It indicates how the Rmarkdown documents will be organized on the site and the folder where the HTML file will be saved (docs).
-- *_output.yml:* Defining a site's style and sharing conditions is done in this section. Bookdown allows for different styles, such as the gitbook style, to be implemented.
+- *_output.yml:* This file defines the site's style and sharing conditions. Bookdown allows different styles, such as the ***gitbook style***, to be implemented.
 
 **5.	Render** 
 To render the site and create the HTML files, you must run the following code, which depends on the style: 
@@ -45,8 +45,8 @@ To render the site and create the HTML files, you must run the following code, w
 ```
 bookdown::render_book("index.Rmd", "bookdown::gitbook")
 ```
-- After running this command, the HTML files are updated in the docs folder, and always ensure that the file .nojekyll is in the folder.
-- Copy and replace the docs folder into the main folder.
+- After running this command, the HTML files are updated in the [IDBsocialdata/docs](https://github.com/EL-BID/idbsocialdata-methodology/tree/399e2df6e4e946ee1a68de2c5451643f881990db/IDBsocialdata/docs) folder, and always ensure that the file ***.nojekyll*** is in the folder.
+- Into the main folder, copy and replace the [docs](https://github.com/EL-BID/idbsocialdata-methodology/tree/399e2df6e4e946ee1a68de2c5451643f881990db/docs) folder.
 
 **6.	Publish the site** 
 
@@ -66,4 +66,4 @@ Xie, Y. 2016. Bookdown: Authoring Books and Technical Documents with R Markdown.
 The IDB is not responsible, under any circumstance, for damage or compensation, moral or patrimonial; direct or indirect; accessory or special; or by way of consequence, foreseen or unforeseen, that could arise:
 
 I. Under any concept of intellectual property, negligence, or detriment of another part of theory, I
-ii. Following the use of the Digital Tool, including, but not limited to, defects in the Digital Tool or the loss or inaccuracy of data of any kind. The foregoing includes expenses or damages associated with communication failures and / or malfunctions of computers, linked to the use of the Digital Tool.
+ii. Following the use of the Digital Tool, including, but not limited to, defects in the Digital Tool or the loss or inaccuracy of data of any kind. The foregoing includes expenses or damages associated with communication failures and/or malfunctions of computers, linked to the use of the Digital Tool.
