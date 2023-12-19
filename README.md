@@ -45,8 +45,8 @@ To render the site and create the HTML files, you must run the following code, w
 ```
 bookdown::render_book("index.Rmd", "bookdown::gitbook")
 ```
-•	After running this command, the HTML files are updated in the docs folder, and always ensure that the file .nojekyll is in the folder. 
-•	Copy and replace the docs folder into the main folder.
+- After running this command, the HTML files are updated in the docs folder, and always ensure that the file .nojekyll is in the folder.
+- Copy and replace the docs folder into the main folder.
 
 **6.	Publish the site** 
 
