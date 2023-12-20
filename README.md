@@ -2,7 +2,7 @@
 [![IDB Logo](https://scldata.iadb.org/assets/iadb-7779368a000004449beca0d4fc6f116cc0617572d549edf2ae491e9a17f63778.png)](https://scldata.iadb.org)
 
 # Data and Indicators for Latin America and the Caribbean: Methodology Handbook
-**Interamerican Development Bank – IDB**
+**SCL Data - Data Ecosystem Working Group**
 
 ## Overview
 Data and Indicators for Latin America and the Caribbean (LAC) is a digital platform that provides key data and indicators for regional research and development. It addresses fundamental issues such as poverty, health, inequality, employment, education, and migration and especially highlights the gender and diversity perspective.
