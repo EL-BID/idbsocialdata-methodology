@@ -1,0 +1,46 @@
+[
+    {
+      "rule": "rul_dupIDPerson",
+      "description": "Identificador de individuo duplicado"
+    },
+    {
+      "rule": "rul_missIdh_ch",
+      "description": "Identificador de hogar faltante en la base de datos"
+    },
+    {
+      "rule": "rul_missIdp_ci",
+      "description": "Identificador de individuo faltante en la base de datos"
+    },
+    {
+      "rule": "rul_dem1",
+      "description": "Variable sexo_ci tiene valores fuera de rango esperado"
+    },
+    {
+      "rule": "rul_lmk9",
+      "description": "Número de clasificaciones de rama_ci es distinto al número de empleados"
+    },
+    {
+      "rule": "rul_sph4",
+      "description": "Persona recibe pensión para adulto mayor pero no es adulto mayor"
+    },
+    {
+      "rule": "rul_wash2",
+      "description": "Persona reporta que usan agua de la red para consumir, pero el valor de aguared_ch (que registra si tenen agua de la red) no es 1"
+    },
+    {
+      "rule": "rul_wash6",
+      "description": "Se reporta que usa la red como fuente principal, entonces aguared_ch debería ser 1"
+    },
+    {
+      "rule": "rul_gdi1",
+      "description": "Porcentaje de personas con discapacidad fuera de rango esperado"
+    },
+    {
+      "rule": "rul_gdi2",
+      "description": "Afroind_ci contiene valores no esperados"
+    },
+    {
+      "rule": "rul_mig6",
+      "description": "El total de observaciones con valores de 1 y 0 para migrante antiguo5_ci deben sumar el total de migrantes (`mig_total')"
+    }
+  ]
